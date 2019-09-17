@@ -1,9 +1,10 @@
 body {
   margin: 10% 5%;
+  font-family: sans-serif;
   font-size: 14px;
   line-height: 1.6;
   color: #505050;
-  background-color: #E7F0FA;
+  background-color: #e7f0fa;
 }
 
 hgroup {
@@ -37,7 +38,7 @@ a {
 .menu a,
 a:active,
 a:visited {
-  color: #E17676;
+  color: #e17676;
 }
 
 p {
@@ -49,8 +50,23 @@ p {
   margin-bottom: 1.414em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  /* center sentences */
+  padding-left: 16px;
 }
 .commentary__sentence {
   margin-right: 16px;
+}
+
+@media screen and (max-width: 1440px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    margin: 10% 7%;
+    font-size: 28px;
+    line-height: 1.7;
+    letter-spacing: 1.5px;
+    color: #757575;
+  }
+  
+  .commentary__sentence {
+    margin-right: 0;
+  }
 }
