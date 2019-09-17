@@ -31,11 +31,12 @@ hgroup.title h2 {
 .table-of-content li {
   margin: 12px;
 }
-.table-of-content a {
+a {
   color: #505050;
 }
-.table-of-content a:active,
-.table-of-content a:visited {
+.menu a,
+a:active,
+a:visited {
   color: #E17676;
 }
 
