@@ -18,6 +18,27 @@ hgroup h2 {
   color: #757575;
 }
 
+hgroup.title {
+  text-align: center;
+}
+hgroup.title h2 {
+  font-size: 0.707em;
+}
+
+.table-of-content {
+  margin: 36px 0;
+}
+.table-of-content li {
+  margin: 12px;
+}
+.table-of-content a {
+  color: #505050;
+}
+.table-of-content a:active,
+.table-of-content a:visited {
+  color: #E17676;
+}
+
 p {
   font-size: 1em;
   margin-bottom: 1.414em;
