@@ -48,25 +48,21 @@ p {
 
 .commentary {
   margin-bottom: 1.414em;
-  display: flex;
-  flex-wrap: wrap;
-  /* center sentences */
-  padding-left: 16px;
+  font-size: 1em;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
 }
 .commentary__sentence {
-  margin-right: 16px;
+  justify-self: center;
 }
 
-@media screen and (max-width: 1440px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     margin: 10% 7%;
     font-size: 28px;
     line-height: 1.7;
     letter-spacing: 1.5px;
     color: #757575;
-  }
-  
-  .commentary__sentence {
-    margin-right: 0;
   }
 }
