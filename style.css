@@ -1,19 +1,42 @@
+/* 
+Other color combinations.
+body {
+  color: #5e4e3f; // umber
+  background-color: #f4f3f2; // anti-flash white
+}
+
+body {
+  color: #905c21; // grizzly
+  background-color: #f7ebde; // moccasin
+}
+
+body {
+  color: #931c2e; // antique ruby
+  background-color: #ecc9ce; // dust storm
+}
+*/
+
 body {
   margin: 10% 5%;
   font-family: sans-serif;
   font-size: 14px;
   line-height: 1.6;
-  color: #505050;
-  background-color: #e7f0fa;
+  color: #905c21; /* grizzly */
+  background-color: #f7ebde; /* moccasin */
+}
+
+.menu {
+  margin-bottom: 1.414em;
 }
 
 hgroup h1 {
   font-size: 1.414em;
-  color: #757575;
+  font-weight: 400;
+  color: #72420e; /* sepia */
 }
 hgroup h2 {
   font-size: 1em;
-  color: #757575;
+  font-weight: 400;
 }
 
 hgroup.title {
@@ -30,12 +53,12 @@ hgroup.title h2 {
   margin: 12px;
 }
 a {
-  color: #505050;
+  color: #905c21;
 }
 .menu a,
 a:active,
 a:visited {
-  color: #e17676;
+  color: #c13a3a;
 }
 
 p {
@@ -54,13 +77,12 @@ p {
   justify-self: center;
 }
 
-@media screen and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
   body {
     margin: 10% 7%;
     font-size: 28px;
     line-height: 1.7;
     letter-spacing: 0.08em;
-    color: #757575;
   }
 
   hgroup h1 {
@@ -75,12 +97,20 @@ p {
     margin-bottom: 1.414em;
   }
   hgroup.title h1 {
-    margin-bottom: 0.707em 0;
+    margin-bottom: 0.707em;
     font-size: 8vw;
-    letter-spacing: 0.15em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
   }
   hgroup.title h2 {
     font-size: 1rem;
     font-weight: 400;
+  }
+}
+
+@media screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  hgroup.title h1 {
+    font-size: 10.5vw;
+    letter-spacing: 0.15em;
   }
 }
