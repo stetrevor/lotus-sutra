@@ -77,6 +77,11 @@ p {
   justify-self: center;
 }
 
+::selection {
+  background-color: #905c21; /* grizzly */
+  color: #f7ebde; /* moccasin */
+}
+
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
   body {
     margin: 10% 7%;
