@@ -7,9 +7,6 @@ body {
   background-color: #e7f0fa;
 }
 
-hgroup {
-  font-size: 1.414em;
-}
 hgroup h1 {
   font-size: 1.414em;
   color: #757575;
@@ -48,25 +45,42 @@ p {
 
 .commentary {
   margin-bottom: 1.414em;
-  display: flex;
-  flex-wrap: wrap;
-  /* center sentences */
-  padding-left: 16px;
+  font-size: 1em;
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
 }
 .commentary__sentence {
-  margin-right: 16px;
+  justify-self: center;
 }
 
-@media screen and (max-width: 1440px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 1440px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     margin: 10% 7%;
     font-size: 28px;
     line-height: 1.7;
-    letter-spacing: 1.5px;
+    letter-spacing: 0.08em;
     color: #757575;
   }
-  
-  .commentary__sentence {
-    margin-right: 0;
+
+  hgroup h1 {
+    margin-top: 0em;
+  }
+  hgroup h2 {
+    margin: 0.5em 0;
+    font-size: 0.707em;
+  }
+
+  hgroup.title {
+    margin-bottom: 1.414em;
+  }
+  hgroup.title h1 {
+    margin-bottom: 0.707em 0;
+    font-size: 8vw;
+    letter-spacing: 0.15em;
+  }
+  hgroup.title h2 {
+    font-size: 1rem;
+    font-weight: 400;
   }
 }
