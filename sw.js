@@ -3,15 +3,15 @@ self.addEventListener('install', function(e) {
     caches.open('video-store').then(function(cache) {
       const chapters = Array.from(
         new Array(28),
-        (_, i) => `/chapter-${i + 1}.html`
+        (_, i) => `/lotus-sutra/chapter-${i + 1}.html`
       )
       return cache.addAll(
         chapters.concat([
-          '/',
-          '/index.html',
-          '/index.js',
-          '/style.css',
-          '/icon.png'
+          '/lotus-sutra/',
+          '/lotus-sutra/index.html',
+          '/lotus-sutra/index.js',
+          '/lotus-sutra/style.css',
+          '/lotus-sutra/icon.png'
         ])
       )
     })
