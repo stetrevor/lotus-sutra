@@ -31,7 +31,7 @@ self.addEventListener('activate', event => {
   const cacheKeeplist = ['lotus-sutra']
 
   event.waitUntil(
-    cache.keys().then(keyList => {
+    caches.keys().then(keyList => {
       return Promise.all(keyList.map(key => {
         if (!cacheKeeplist.includes(key)) {
           return caches.delete(key)
