@@ -70,11 +70,7 @@ p {
   margin-bottom: 1.414em;
   font-size: 1em;
   display: grid;
-  grid-gap: 8px;
   grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
-}
-.commentary__sentence {
-  justify-self: center;
 }
 
 ::selection {
@@ -111,11 +107,23 @@ p {
     font-size: 1rem;
     font-weight: 400;
   }
+
+  .commentary {
+    grid-template-columns: repeat(2, fit-content(5.4em));
+    gap: 0.2em 0.5em;
+  }
 }
 
 @media screen and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
   hgroup.title h1 {
     font-size: 10.5vw;
     letter-spacing: 0.15em;
+  }
+}
+
+@media screen and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .commentary {
+    grid-template-columns: repeat(4, fit-content(5.4em));
+    gap: 0.2em 0.5em;
   }
 }
