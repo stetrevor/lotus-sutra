@@ -31,6 +31,10 @@ body {
   left: calc(50% - 96px);
 }
 
+.ready .logo {
+  display: none;
+}
+
 .menu {
   margin-bottom: 1.414em;
 }
