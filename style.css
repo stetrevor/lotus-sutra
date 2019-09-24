@@ -25,6 +25,12 @@ body {
   background-color: #f7ebde; /* moccasin */
 }
 
+.logo {
+  position: absolute;
+  top: calc(50% - 96px);
+  left: calc(50% - 96px);
+}
+
 .menu {
   margin-bottom: 1.414em;
 }
