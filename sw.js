@@ -13,7 +13,7 @@ self.addEventListener('install', function(e) {
           // '/index.js',
           // '/style.css',
           // '/icon.png',
-          'https://cdnjs.cloudflare.com/ajax/libs/marked/0.7.0/marked.min.js',
+          'https://cdn.jsdelivr.net/combine/npm/marked@0.7.0,npm/idb-keyval@3.2.0/dist/idb-keyval-iife.min.js',
         ])
       )
     })
