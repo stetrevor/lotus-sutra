@@ -32,11 +32,13 @@ self.addEventListener('activate', event => {
 
   event.waitUntil(
     caches.keys().then(keyList => {
-      return Promise.all(keyList.map(key => {
+      return Promise.all(
+        keyList.map(key => {
         if (!cacheKeeplist.includes(key)) {
           return caches.delete(key)
         }
-      }))
+        })
+      )
     })
   )
 })
