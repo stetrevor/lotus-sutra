@@ -30,14 +30,14 @@ document.addEventListener('readystatechange', async () => {
   if (document.readyState === 'complete') {
     console.log('readystate is complete')
 
-    window.addEventListener('hashchange', e => loadPage(), false)
+    window.addEventListener('hashchange', e => await loadPage(), false)
 
     const bookmarkPage = await idbKeyval.get('bookmark.page')
     // Check if bookmark is current page
     const hash = bookmarkPage || window.location.hash || '#/table-of-contents'
     window.location.hash = hash
     console.log('ready hash', hash)
-    loadPage(hash)
+    await loadPage('/lotus-sutra' + hash)
 
     document.body.classList.add('ready')
   }
