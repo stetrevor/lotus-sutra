@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第六</h2>
   <h1>常不轻菩萨品第廿</h1>
@@ -86,4 +86,4 @@
   ><span class="commentary__sentence">世世值佛</span
   ><span class="commentary__sentence">疾成佛道</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

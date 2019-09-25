@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第五</h2>
   <h1>分别功德品第十七</h1>
@@ -250,4 +250,4 @@
   ><span class="commentary__sentence">常在于其中</span
   ><span class="commentary__sentence">经行及坐卧</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

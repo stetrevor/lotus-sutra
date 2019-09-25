@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第六</h2>
   <h1>法师功德品第十九</h1>
@@ -353,4 +353,4 @@
   ><span class="commentary__sentence">分别而说法</span
   ><span class="commentary__sentence">持法华经故</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

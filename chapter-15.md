@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第五</h2>
   <h1>从地涌出品第十五</h1>
@@ -233,4 +233,4 @@
   ><span class="commentary__sentence">教化令发心</span
   ><span class="commentary__sentence">而住不退地</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

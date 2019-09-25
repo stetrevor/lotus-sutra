@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第四</h2>
   <h1>见宝塔品第十一</h1>
@@ -200,4 +200,4 @@
   <span class="commentary__sentence">一切天人</span
   ><span class="commentary__sentence">皆应供养</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

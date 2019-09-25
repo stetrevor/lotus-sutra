@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第一</h2>
   <h1>方便品第二</h1>
@@ -694,4 +694,4 @@
   <span class="commentary__sentence">心生大欢喜</span
   ><span class="commentary__sentence">自知当作佛</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

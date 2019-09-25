@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第四</h2>
   <h1>劝持品第十三</h1>
@@ -97,4 +97,4 @@
   ><span class="commentary__sentence">发如是誓言</span
   ><span class="commentary__sentence">佛自知我心</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

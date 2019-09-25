@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第三</h2>
   <h1>药草喻品第五</h1>
@@ -242,4 +242,4 @@
   ><span class="commentary__sentence">渐渐修学</span
   ><span class="commentary__sentence">悉当成佛</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

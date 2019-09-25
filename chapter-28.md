@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第七</h2>
   <h1>普贤菩萨劝发品第廿八</h1>
@@ -73,4 +73,4 @@
 <p>
   佛说是经时，普贤等诸菩萨，舍利弗等诸声闻，及诸天龙人非人等，一切大会，皆大欢喜，受持佛语，作礼而去。
 </p>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 
 <hgroup>
   <h2>卷第一</h2>
@@ -482,4 +482,4 @@
   ><span class="commentary__sentence">令尽无有余</span>
 </div>
 
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

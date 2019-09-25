@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第七</h2>
   <h1>观世音菩萨普门品第廿五</h1>
@@ -250,4 +250,4 @@
 <p>
   佛说是普门品时，众中八万四千众生，皆发无等等阿耨多罗三藐三菩提心。
 </p>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第六</h2>
   <h1>如来神力品第廿一</h1>
@@ -72,4 +72,4 @@
   <span class="commentary__sentence">是人于佛道</span
   ><span class="commentary__sentence">决定无有疑</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

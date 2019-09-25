@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第二</h2>
   <h1>信解品第四</h1>
@@ -373,4 +373,4 @@
   ><span class="commentary__sentence">于一乘道</span
   ><span class="commentary__sentence">随宜说三</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

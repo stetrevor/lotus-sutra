@@ -1,4 +1,4 @@
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第六</h2>
   <h1>随喜功德品第十八</h1>
@@ -90,4 +90,4 @@
   ><span class="commentary__sentence">如说而修行</span
   ><span class="commentary__sentence">其福不可量</span>
 </div>
-<div class="menu"><a href="/#/table-of-contents">目录</a></div>
+<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
