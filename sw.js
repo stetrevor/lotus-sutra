@@ -1,18 +1,18 @@
 self.addEventListener('install', function(e) {
+  console.log('install')
   e.waitUntil(
     caches.open('lotus-sutra').then(function(cache) {
-      // const chapters = Array.from(
-      //   new Array(28),
-      //   (_, i) => `/chapter-${i + 1}.html`
-      // )
-      const chapters = []
+      const chapters = Array.from(
+        new Array(28),
+        (_, i) => `/lotus-sutra/chapter-${i + 1}.md`
+      )
       return cache.addAll(
         chapters.concat([
-          // '/',
-          // '/index.html',
-          // '/index.js',
-          // '/style.css',
-          // '/icon.png',
+          '/lotus-sutra/',
+          '/lotus-sutra/index.html',
+          '/lotus-sutra/index.js',
+          '/lotus-sutra/style.css',
+          '/lotus-sutra/icon.png',
           'https://cdn.jsdelivr.net/combine/npm/marked@0.7.0,npm/idb-keyval@3.2.0/dist/idb-keyval-iife.min.js',
         ])
       )
