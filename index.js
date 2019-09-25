@@ -50,14 +50,16 @@ document.addEventListener('readystatechange', async () => {
 })
 
 async function bookmark() {
-  console.log(document.visibilityState, 'visibility change')
+  console.log('bookmark')
   // Update app state `bookmark.page` and `bookmark.scrollTop`
-  if (document.visibilityState === 'hidden') {
-    await idbKeyval.set('bookmark.page', window.location.hash)
-    await idbKeyval.set('bookmark.scrollTop', window.scrollY)
-  }
+  await idbKeyval.set('bookmark.page', window.location.hash)
+  await idbKeyval.set('bookmark.scrollTop', window.scrollY)
 }
 
-document.addEventListener('visibilitychange', bookmark)
+document.addEventListener('visibilitychange', async () => {
+  if (document.visibilityState === 'hidden') {
+    await bookmark()
+  }
+})
 
 window.addEventListener('beforeunload', bookmark)
