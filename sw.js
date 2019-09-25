@@ -1,9 +1,10 @@
 self.addEventListener('install', function(e) {
+  console.log('install')
   e.waitUntil(
-    caches.open('video-store').then(function(cache) {
+    caches.open('lotus-sutra').then(function(cache) {
       const chapters = Array.from(
         new Array(28),
-        (_, i) => `/lotus-sutra/chapter-${i + 1}.html`
+        (_, i) => `/lotus-sutra/chapter-${i + 1}.md`
       )
       return cache.addAll(
         chapters.concat([
@@ -11,7 +12,8 @@ self.addEventListener('install', function(e) {
           '/lotus-sutra/index.html',
           '/lotus-sutra/index.js',
           '/lotus-sutra/style.css',
-          '/lotus-sutra/icon.png'
+          '/lotus-sutra/icon.png',
+          'https://cdn.jsdelivr.net/combine/npm/marked@0.7.0,npm/idb-keyval@3.2.0/dist/idb-keyval-iife.min.js',
         ])
       )
     })
@@ -32,11 +34,13 @@ self.addEventListener('activate', event => {
 
   event.waitUntil(
     caches.keys().then(keyList => {
-      return Promise.all(keyList.map(key => {
-        if (!cacheKeeplist.includes(key)) {
-          return caches.delete(key)
-        }
-      }))
+      return Promise.all(
+        keyList.map(key => {
+          if (!cacheKeeplist.includes(key)) {
+            return caches.delete(key)
+          }
+        })
+      )
     })
   )
 })
