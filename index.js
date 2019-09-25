@@ -30,7 +30,13 @@ document.addEventListener('readystatechange', async () => {
   if (document.readyState === 'complete') {
     console.log('readystate is complete')
 
-    window.addEventListener('hashchange', async e => { await loadPage() }, false)
+    window.addEventListener(
+      'hashchange',
+      async e => {
+        await loadPage()
+      },
+      false
+    )
 
     const bookmarkPage = await idbKeyval.get('bookmark.page')
     // Check if bookmark is current page
@@ -43,11 +49,15 @@ document.addEventListener('readystatechange', async () => {
   }
 })
 
-document.addEventListener('visibilitychange', async () => {
+async function bookmark() {
   console.log(document.visibilityState, 'visibility change')
   // Update app state `bookmark.page` and `bookmark.scrollTop`
   if (document.visibilityState === 'hidden') {
     await idbKeyval.set('bookmark.page', window.location.hash)
     await idbKeyval.set('bookmark.scrollTop', window.scrollY)
   }
-})
+}
+
+document.addEventListener('visibilitychange', bookmark)
+
+window.addEventListener('beforeunload', bookmark)
