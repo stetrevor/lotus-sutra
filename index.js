@@ -30,7 +30,7 @@ document.addEventListener('readystatechange', async () => {
   if (document.readyState === 'complete') {
     console.log('readystate is complete')
 
-    window.addEventListener('hashchange', e => { await loadPage() }, false)
+    window.addEventListener('hashchange', async e => { await loadPage() }, false)
 
     const bookmarkPage = await idbKeyval.get('bookmark.page')
     // Check if bookmark is current page
