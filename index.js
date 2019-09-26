@@ -14,7 +14,7 @@ async function getData(pageUrl) {
 async function loadPage(locationHash = window.location.hash) {
   console.log('loadPage', locationHash)
   const url = (locationHash || '#/table-of-contents').split('#')[1] + '.md'
-  const data = await getData('/lotus-sutra' + url)
+  const data = await getData('' + url)
   const container = document.querySelector('.content-container')
 
   container.innerHTML = marked(data, { gfm: true })
@@ -26,6 +26,16 @@ async function loadPage(locationHash = window.location.hash) {
   await idbKeyval.clear()
 }
 
+/* Reading speed is set at 250 Chinese character per minute, reading out aloud.
+ * Refer to medium.com about read time.
+ */
+function calculateReadTime() {
+  const content = document.querySelector('.content-container')
+  const textHint = document.querySelector('.reading-progress__text-hint')
+  const minutes = Math.ceil(content.textContent.length / 250)
+  textHint.textContent = minutes + ' min read'
+}
+
 document.addEventListener('readystatechange', async () => {
   if (document.readyState === 'complete') {
     console.log('readystate is complete')
@@ -34,9 +44,17 @@ document.addEventListener('readystatechange', async () => {
       'hashchange',
       async e => {
         await loadPage()
+        calculateReadTime()
       },
       false
     )
+
+    // Set up progress bar visibility
+    window.addEventListener('hashchange', () => {
+      const readingProgress = document.querySelector('.reading-progress')
+      const toc = window.location.hash.endsWith('table-of-contents')
+      readingProgress.style.display = toc ? 'none': 'initial'
+    })
 
     const bookmarkPage = await idbKeyval.get('bookmark.page')
     // Check if bookmark is current page
@@ -44,6 +62,7 @@ document.addEventListener('readystatechange', async () => {
     window.location.hash = hash
     console.log('ready hash', hash)
     await loadPage(hash)
+    calculateReadTime()
 
     document.body.classList.add('ready')
   }
