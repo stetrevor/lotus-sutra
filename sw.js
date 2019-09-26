@@ -1,7 +1,7 @@
 self.addEventListener('install', function(e) {
   console.log('install')
   e.waitUntil(
-    caches.open('lotus-sutra-v1').then(function(cache) {
+    caches.open('lotus-sutra-v2').then(function(cache) {
       const chapters = Array.from(
         new Array(28),
         (_, i) => `/lotus-sutra/chapter-${i + 1}.md`
@@ -30,7 +30,7 @@ self.addEventListener('fetch', function(e) {
 })
 
 self.addEventListener('activate', event => {
-  const cacheKeeplist = ['lotus-sutra-v1']
+  const cacheKeeplist = ['lotus-sutra-v2']
 
   event.waitUntil(
     caches.keys().then(keyList => {
