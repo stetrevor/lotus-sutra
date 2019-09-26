@@ -30,7 +30,7 @@ self.addEventListener('fetch', function(e) {
 })
 
 self.addEventListener('activate', event => {
-  const cacheKeeplist = ['lotus-sutra']
+  const cacheKeeplist = ['lotus-sutra-v1']
 
   event.waitUntil(
     caches.keys().then(keyList => {
