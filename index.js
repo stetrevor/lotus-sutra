@@ -14,7 +14,7 @@ async function getData(pageUrl) {
 async function loadPage(locationHash = window.location.hash) {
   console.log('loadPage', locationHash)
   const url = (locationHash || '#/table-of-contents').split('#')[1] + '.md'
-  const data = await getData('' + url)
+  const data = await getData('/lotus-sutra' + url)
   const container = document.querySelector('.content-container')
 
   container.innerHTML = marked(data, { gfm: true })
