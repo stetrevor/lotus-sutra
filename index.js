@@ -4,6 +4,20 @@ if ('serviceWorker' in navigator) {
   })
 }
 
+function rafThrottle(fn) {
+  let busy = false
+
+  return function() {
+    if (busy) return
+
+    busy = true
+    fn.apply(this, arguments)
+    window.requestAnimationFrame(function() {
+      busy = false
+    })
+  }
+}
+
 async function getData(pageUrl) {
   const req = new Request(pageUrl)
   const resp = await fetch(req)
@@ -59,16 +73,20 @@ document.addEventListener('readystatechange', async () => {
     // See https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3.
     document.addEventListener(
       'scroll',
-      () => {
-        const progress = document.querySelector('.reading-progress__progress-bar')
-        const progressText = document.querySelector('.reading-progress__progress')
+      rafThrottle(() => {
+        const progress = document.querySelector(
+          '.reading-progress__progress-bar'
+        )
+        const progressText = document.querySelector(
+          '.reading-progress__progress'
+        )
         const de = document.documentElement
         const scrollTop = de.scrollTop
         const scrollBottom = de.scrollHeight - de.clientHeight
         const scrollPercent = (scrollTop / scrollBottom) * 100
         progress.style.setProperty('--scroll', scrollPercent + '%')
         progressText.textContent = Math.ceil(scrollPercent) + '%'
-      },
+      }),
       { passive: true }
     )
 
