@@ -1,7 +1,7 @@
 self.addEventListener('install', function(e) {
   console.log('install')
   e.waitUntil(
-    caches.open('lotus-sutra').then(function(cache) {
+    caches.open('lotus-sutra-v1').then(function(cache) {
       const chapters = Array.from(
         new Array(28),
         (_, i) => `/lotus-sutra/chapter-${i + 1}.md`
