@@ -12,7 +12,7 @@ async function getData(pageUrl) {
 }
 
 async function loadPage(locationHash = window.location.hash) {
-  console.log('hashchange', window.location.hash, locationHash)
+  console.log('loadPage', locationHash)
   const url = (locationHash || '#/table-of-contents').split('#')[1] + '.md'
   const data = await getData('/lotus-sutra' + url)
   const container = document.querySelector('.content-container')
@@ -43,7 +43,7 @@ document.addEventListener('readystatechange', async () => {
     const hash = bookmarkPage || window.location.hash || '#/table-of-contents'
     window.location.hash = hash
     console.log('ready hash', hash)
-    await loadPage('/lotus-sutra' + hash)
+    await loadPage(hash)
 
     document.body.classList.add('ready')
   }
