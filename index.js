@@ -61,11 +61,13 @@ document.addEventListener('readystatechange', async () => {
       'scroll',
       () => {
         const progress = document.querySelector('.reading-progress__progress-bar')
+        const progressText = document.querySelector('.reading-progress__progress')
         const de = document.documentElement
         const scrollTop = de.scrollTop
         const scrollBottom = de.scrollHeight - de.clientHeight
-        const scrollPercent = (scrollTop / scrollBottom) * 100 + '%'
-        progress.style.setProperty('--scroll', scrollPercent)
+        const scrollPercent = (scrollTop / scrollBottom) * 100
+        progress.style.setProperty('--scroll', scrollPercent + '%')
+        progressText.textContent = Math.ceil(scrollPercent) + '%'
       },
       { passive: true }
     )

@@ -90,11 +90,12 @@ p {
   width: 100%;
   background-color: #f7ebde;
 }
-.reading-progress__read-time {
-  text-align: right;
+.reading-progress__text-hint {
   font-size: 12px;
   letter-spacing: 0;
   margin: 4px 24px 4px;
+  display: flex;
+  justify-content: space-between;
 }
 .reading-progress__progress-bar {
   --scroll: 0%;
