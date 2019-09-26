@@ -53,8 +53,22 @@ document.addEventListener('readystatechange', async () => {
     window.addEventListener('hashchange', () => {
       const readingProgress = document.querySelector('.reading-progress')
       const toc = window.location.hash.endsWith('table-of-contents')
-      readingProgress.style.display = toc ? 'none': 'initial'
+      readingProgress.style.display = toc ? 'none' : 'initial'
     })
+    // Set up progress bar.
+    // See https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3.
+    document.addEventListener(
+      'scroll',
+      () => {
+        const progress = document.querySelector('.reading-progress__progress-bar')
+        const de = document.documentElement
+        const scrollTop = de.scrollTop
+        const scrollBottom = de.scrollHeight - de.clientHeight
+        const scrollPercent = (scrollTop / scrollBottom) * 100 + '%'
+        progress.style.setProperty('--scroll', scrollPercent)
+      },
+      { passive: true }
+    )
 
     const bookmarkPage = await idbKeyval.get('bookmark.page')
     // Check if bookmark is current page
