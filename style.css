@@ -90,7 +90,7 @@ p {
   width: 100%;
   background-color: #f7ebde;
 }
-.reading-progress__text-hint {
+.reading-progress__read-time {
   text-align: right;
   font-size: 12px;
   letter-spacing: 0;

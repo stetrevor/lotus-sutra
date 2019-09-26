@@ -31,7 +31,7 @@ async function loadPage(locationHash = window.location.hash) {
  */
 function calculateReadTime() {
   const content = document.querySelector('.content-container')
-  const textHint = document.querySelector('.reading-progress__text-hint')
+  const textHint = document.querySelector('.reading-progress__read-time')
   const minutes = Math.ceil(content.textContent.length / 250)
   textHint.textContent = minutes + ' min read'
 }
