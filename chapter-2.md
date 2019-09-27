@@ -309,7 +309,7 @@
   ><span class="commentary__sentence">而独无所畏</span
   ><span class="commentary__sentence">我以相严身</span
   ><span class="commentary__sentence">光明照世间</span>
-  <span class="commentary__sentence">无量所众尊</span
+  <span class="commentary__sentence">无量众所尊</span
   ><span class="commentary__sentence">为说实相印</span>
   <span class="commentary__sentence">舍利弗当知</span
   ><span class="commentary__sentence">我本立誓愿</span
