@@ -3,6 +3,8 @@ const version = 'v5'
 self.addEventListener('install', function(e) {
   console.log('install')
 
+  self.skipWaiting()
+
   e.waitUntil(
     caches.open(`lotus-sutra-${version}`).then(function(cache) {
       const chapters = Array.from(
@@ -20,9 +22,7 @@ self.addEventListener('install', function(e) {
         ])
       )
     })
-  ).then(() => {
-    return self.skipWaiting()
-  })
+  )
 })
 
 self.addEventListener('fetch', function(e) {
@@ -37,19 +37,17 @@ self.addEventListener('fetch', function(e) {
 self.addEventListener('activate', event => {
   const cacheKeeplist = [`lotus-sutra-${version}`]
 
-  event
-    .waitUntil(
-      caches.keys().then(keyList => {
-        return Promise.all(
-          keyList.map(key => {
-            if (!cacheKeeplist.includes(key)) {
-              return caches.delete(key)
-            }
-          })
-        )
-      })
-    )
-    .then(() => {
-      self.clients.claim()
-    })
+  event.waitUntil(
+    caches.keys().then(keyList => {
+      return Promise.all(
+        keyList.map(key => {
+          if (!cacheKeeplist.includes(key)) {
+            return caches.delete(key)
+          }
+        })
+      )
+    }),
+
+    self.clients.claim()
+  )
 })
