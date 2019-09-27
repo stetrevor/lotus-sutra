@@ -37,17 +37,19 @@ self.addEventListener('fetch', function(e) {
 self.addEventListener('activate', event => {
   const cacheKeeplist = [`lotus-sutra-${version}`]
 
-  event.waitUntil(
-    caches.keys().then(keyList => {
-      return Promise.all(
-        keyList.map(key => {
-          if (!cacheKeeplist.includes(key)) {
-            return caches.delete(key)
-          }
-        })
-      )
+  event
+    .waitUntil(
+      caches.keys().then(keyList => {
+        return Promise.all(
+          keyList.map(key => {
+            if (!cacheKeeplist.includes(key)) {
+              return caches.delete(key)
+            }
+          })
+        )
+      })
+    )
+    .then(() => {
+      self.clients.claim()
     })
-  ).then(() => {
-    self.clients.claim()
-  })
 })
