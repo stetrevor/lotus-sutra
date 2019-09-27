@@ -16,7 +16,7 @@ self.addEventListener('install', function(e) {
           '/lotus-sutra/index.js',
           '/lotus-sutra/style.css',
           '/lotus-sutra/icon.png',
-          'https://cdn.jsdelivr.net/combine/npm/marked@0.7.0,npm/idb-keyval@3.2.0/dist/idb-keyval-iife.min.js'
+          'https://cdn.jsdelivr.net/npm/marked@0.7.0/lib/marked.min.js'
         ])
       )
     })
