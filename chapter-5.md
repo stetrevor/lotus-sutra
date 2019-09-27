@@ -23,223 +23,223 @@
   汝等迦叶，甚为希有，能知如来随宜说法，能信能受。所以者何？诸佛世尊随宜说法，难解难知。尔时，世尊欲重宣此义，而说偈言：
 </p>
 <div class="commentary">
-  <span class="commentary__sentence">破有法王</span
-  ><span class="commentary__sentence">出现世间</span
-  ><span class="commentary__sentence">随众生欲</span
-  ><span class="commentary__sentence">种种说法</span>
-  <span class="commentary__sentence">如来尊重</span
-  ><span class="commentary__sentence">智慧深远</span
-  ><span class="commentary__sentence">久默斯要</span
-  ><span class="commentary__sentence">不务速说</span>
-  <span class="commentary__sentence">有智若闻</span
-  ><span class="commentary__sentence">则能信解</span
-  ><span class="commentary__sentence">无智疑悔</span
-  ><span class="commentary__sentence">则为永失</span>
-  <span class="commentary__sentence">是故迦叶</span
-  ><span class="commentary__sentence">随力为说</span
-  ><span class="commentary__sentence">以种种缘</span
-  ><span class="commentary__sentence">令得正见</span>
-  <span class="commentary__sentence">迦叶当知</span
-  ><span class="commentary__sentence">譬如大云</span
-  ><span class="commentary__sentence">起于世间</span
-  ><span class="commentary__sentence">遍覆一切</span>
-  <span class="commentary__sentence">慧云含润</span
-  ><span class="commentary__sentence">电光晃曜</span
-  ><span class="commentary__sentence">雷声远震</span
-  ><span class="commentary__sentence">令众悦豫</span>
-  <span class="commentary__sentence">日光掩蔽</span
-  ><span class="commentary__sentence">地上清凉</span
-  ><span class="commentary__sentence">叆叇垂布</span
-  ><span class="commentary__sentence">如可承揽</span>
-  <span class="commentary__sentence">其雨普等</span
-  ><span class="commentary__sentence">四方俱下</span
-  ><span class="commentary__sentence">流澍无量</span
-  ><span class="commentary__sentence">率土充洽</span>
-  <span class="commentary__sentence">山川险谷</span
-  ><span class="commentary__sentence">幽邃所生</span
-  ><span class="commentary__sentence">卉木药草</span
-  ><span class="commentary__sentence">大小诸树</span>
-  <span class="commentary__sentence">百谷苗稼</span
-  ><span class="commentary__sentence">甘蔗蒲萄</span
-  ><span class="commentary__sentence">雨之所润</span
-  ><span class="commentary__sentence">无不丰足</span>
-  <span class="commentary__sentence">乾地普洽</span
-  ><span class="commentary__sentence">药木并茂</span
-  ><span class="commentary__sentence">其云所出</span
-  ><span class="commentary__sentence">一味之水</span>
-  <span class="commentary__sentence">草木丛林</span
-  ><span class="commentary__sentence">随分受润</span>
-  <span class="commentary__sentence">一切诸树</span
-  ><span class="commentary__sentence">上中下等</span
-  ><span class="commentary__sentence">称其大小</span
-  ><span class="commentary__sentence">各得生长</span>
-  <span class="commentary__sentence">根茎枝叶</span
-  ><span class="commentary__sentence">华果光色</span
-  ><span class="commentary__sentence">一雨所及</span
-  ><span class="commentary__sentence">皆得鲜泽</span>
-  <span class="commentary__sentence">如其体相</span
-  ><span class="commentary__sentence">性分大小</span
-  ><span class="commentary__sentence">所润是一</span
-  ><span class="commentary__sentence">而各滋茂</span>
-  <span class="commentary__sentence">佛亦如是</span
-  ><span class="commentary__sentence">出现于世</span
-  ><span class="commentary__sentence">譬如大云</span
-  ><span class="commentary__sentence">普覆一切</span>
-  <span class="commentary__sentence">既出于世</span
-  ><span class="commentary__sentence">为诸众生</span
-  ><span class="commentary__sentence">分别演说</span
-  ><span class="commentary__sentence">诸法之实</span>
-  <span class="commentary__sentence">大圣世尊</span
-  ><span class="commentary__sentence">于诸天人</span
-  ><span class="commentary__sentence">一切众中</span
-  ><span class="commentary__sentence">而宣是言</span>
-  <span class="commentary__sentence">我为如来</span
-  ><span class="commentary__sentence">两足之尊</span
-  ><span class="commentary__sentence">出于世间</span
-  ><span class="commentary__sentence">犹如大云</span>
-  <span class="commentary__sentence">充润一切</span
-  ><span class="commentary__sentence">枯槁众生</span
-  ><span class="commentary__sentence">皆令离苦</span
-  ><span class="commentary__sentence">得安隐乐</span>
-  <span class="commentary__sentence">世间之乐</span
-  ><span class="commentary__sentence">及涅槃乐</span
-  ><span class="commentary__sentence">诸天人众</span
-  ><span class="commentary__sentence">一心善听</span>
-  <span class="commentary__sentence">皆应到此</span
-  ><span class="commentary__sentence">觐无上尊</span>
-  <span class="commentary__sentence">我为世尊</span
-  ><span class="commentary__sentence">无能及者</span
-  ><span class="commentary__sentence">安隐众生</span
-  ><span class="commentary__sentence">故现于世</span>
-  <span class="commentary__sentence">为大众说</span
-  ><span class="commentary__sentence">甘露净法</span
-  ><span class="commentary__sentence">其法一味</span
-  ><span class="commentary__sentence">解脱涅槃</span>
-  <span class="commentary__sentence">以一妙音</span
-  ><span class="commentary__sentence">演畅斯义</span
-  ><span class="commentary__sentence">常为大乘</span
-  ><span class="commentary__sentence">而作因缘</span>
-  <span class="commentary__sentence">我观一切</span
-  ><span class="commentary__sentence">普皆平等</span
-  ><span class="commentary__sentence">无有彼此</span
-  ><span class="commentary__sentence">爱憎之心</span>
-  <span class="commentary__sentence">我无贪着</span
-  ><span class="commentary__sentence">亦无限碍</span
-  ><span class="commentary__sentence">恒为一切</span
-  ><span class="commentary__sentence">平等说法</span>
-  <span class="commentary__sentence">如为一人</span
-  ><span class="commentary__sentence">众多亦然</span
-  ><span class="commentary__sentence">常演说法</span
-  ><span class="commentary__sentence">曾无他事</span>
-  <span class="commentary__sentence">去来坐立</span
-  ><span class="commentary__sentence">终不疲厌</span
-  ><span class="commentary__sentence">充足世间</span
-  ><span class="commentary__sentence">如雨普润</span>
-  <span class="commentary__sentence">贵贱上下</span
-  ><span class="commentary__sentence">持戒毁戒</span
-  ><span class="commentary__sentence">威仪具足</span
-  ><span class="commentary__sentence">及不具足</span>
-  <span class="commentary__sentence">正见邪见</span
-  ><span class="commentary__sentence">利根钝根</span
-  ><span class="commentary__sentence">等雨法雨</span
-  ><span class="commentary__sentence">而无懈倦</span>
-  <span class="commentary__sentence">一切众生</span
-  ><span class="commentary__sentence">闻我法者</span
-  ><span class="commentary__sentence">随力所受</span
-  ><span class="commentary__sentence">住于诸地</span>
-  <span class="commentary__sentence">或处人天</span
-  ><span class="commentary__sentence">转轮圣王</span
-  ><span class="commentary__sentence">释梵诸王</span
-  ><span class="commentary__sentence">是小药草</span>
-  <span class="commentary__sentence">知无漏法</span
-  ><span class="commentary__sentence">能得涅槃</span
-  ><span class="commentary__sentence">起六神通</span
-  ><span class="commentary__sentence">及得三明</span>
-  <span class="commentary__sentence">独处山林</span
-  ><span class="commentary__sentence">常行禅定</span
-  ><span class="commentary__sentence">得缘觉证</span
-  ><span class="commentary__sentence">是中药草</span>
-  <span class="commentary__sentence">求世尊处</span
-  ><span class="commentary__sentence">我当作佛</span
-  ><span class="commentary__sentence">行精进定</span
-  ><span class="commentary__sentence">是上药草</span>
-  <span class="commentary__sentence">又诸佛子</span
-  ><span class="commentary__sentence">专心佛道</span
-  ><span class="commentary__sentence">常行慈悲</span
-  ><span class="commentary__sentence">自知作佛</span>
-  <span class="commentary__sentence">决定无疑</span
-  ><span class="commentary__sentence">是名小树</span>
-  <span class="commentary__sentence">安住神通</span
-  ><span class="commentary__sentence">转不退轮</span
-  ><span class="commentary__sentence">度无量亿</span
-  ><span class="commentary__sentence">百千众生</span>
-  <span class="commentary__sentence">如是菩萨</span
-  ><span class="commentary__sentence">名为大树</span>
-  <span class="commentary__sentence">佛平等说</span
-  ><span class="commentary__sentence">如一味雨</span
-  ><span class="commentary__sentence">随众生性</span
-  ><span class="commentary__sentence">所受不同</span>
-  <span class="commentary__sentence">如彼草木</span
-  ><span class="commentary__sentence">所禀各异</span>
-  <span class="commentary__sentence">佛以此喻</span
-  ><span class="commentary__sentence">方便开示</span
-  ><span class="commentary__sentence">种种言辞</span
-  ><span class="commentary__sentence">演说一法</span>
-  <span class="commentary__sentence">于佛智慧</span
-  ><span class="commentary__sentence">如海一滴</span>
-  <span class="commentary__sentence">我雨法雨</span
-  ><span class="commentary__sentence">充满世间</span
-  ><span class="commentary__sentence">一味之法</span
-  ><span class="commentary__sentence">随力修行</span>
-  <span class="commentary__sentence">如彼丛林</span
-  ><span class="commentary__sentence">药草诸树</span
-  ><span class="commentary__sentence">随其大小</span
-  ><span class="commentary__sentence">渐增茂好</span>
-  <span class="commentary__sentence">诸佛之法</span
-  ><span class="commentary__sentence">常以一味</span
-  ><span class="commentary__sentence">令诸世间</span
-  ><span class="commentary__sentence">普得具足</span>
-  <span class="commentary__sentence">渐次修行</span
-  ><span class="commentary__sentence">皆得道果</span>
-  <span class="commentary__sentence">声闻缘觉</span
-  ><span class="commentary__sentence">处于山林</span
-  ><span class="commentary__sentence">住最后身</span
-  ><span class="commentary__sentence">闻法得果</span>
-  <span class="commentary__sentence">是名药草</span
-  ><span class="commentary__sentence">各得增长</span>
-  <span class="commentary__sentence">若诸菩萨</span
-  ><span class="commentary__sentence">智慧坚固</span
-  ><span class="commentary__sentence">了达三界</span
-  ><span class="commentary__sentence">求最上乘</span>
-  <span class="commentary__sentence">是名小树</span
-  ><span class="commentary__sentence">而得增长</span>
-  <span class="commentary__sentence">复有住禅</span
-  ><span class="commentary__sentence">得神通力</span
-  ><span class="commentary__sentence">闻诸法空</span
-  ><span class="commentary__sentence">心大欢喜</span>
-  <span class="commentary__sentence">放无数光</span
-  ><span class="commentary__sentence">度诸众生</span
-  ><span class="commentary__sentence">是名大树</span
-  ><span class="commentary__sentence">而得增长</span>
-  <span class="commentary__sentence">如是迦叶</span
-  ><span class="commentary__sentence">佛所说法</span
-  ><span class="commentary__sentence">譬如大云</span
-  ><span class="commentary__sentence">以一味雨</span
-  ><span class="commentary__sentence">润于人华</span
-  ><span class="commentary__sentence">各得成实</span>
-  <span class="commentary__sentence">迦叶当知</span
-  ><span class="commentary__sentence">以诸因缘</span
-  ><span class="commentary__sentence">种种譬喻</span
-  ><span class="commentary__sentence">开示佛道</span
-  ><span class="commentary__sentence">是我方便</span
-  ><span class="commentary__sentence">诸佛亦然</span>
-  <span class="commentary__sentence">今为汝等</span
-  ><span class="commentary__sentence">说最实事</span
-  ><span class="commentary__sentence">诸声闻众</span
-  ><span class="commentary__sentence">皆非灭度</span>
-  <span class="commentary__sentence">汝等所行</span
-  ><span class="commentary__sentence">是菩萨道</span
-  ><span class="commentary__sentence">渐渐修学</span
-  ><span class="commentary__sentence">悉当成佛</span>
+  <span>破有法王</span
+  ><span>出现世间</span
+  ><span>随众生欲</span
+  ><span>种种说法</span>
+  <span>如来尊重</span
+  ><span>智慧深远</span
+  ><span>久默斯要</span
+  ><span>不务速说</span>
+  <span>有智若闻</span
+  ><span>则能信解</span
+  ><span>无智疑悔</span
+  ><span>则为永失</span>
+  <span>是故迦叶</span
+  ><span>随力为说</span
+  ><span>以种种缘</span
+  ><span>令得正见</span>
+  <span>迦叶当知</span
+  ><span>譬如大云</span
+  ><span>起于世间</span
+  ><span>遍覆一切</span>
+  <span>慧云含润</span
+  ><span>电光晃曜</span
+  ><span>雷声远震</span
+  ><span>令众悦豫</span>
+  <span>日光掩蔽</span
+  ><span>地上清凉</span
+  ><span>叆叇垂布</span
+  ><span>如可承揽</span>
+  <span>其雨普等</span
+  ><span>四方俱下</span
+  ><span>流澍无量</span
+  ><span>率土充洽</span>
+  <span>山川险谷</span
+  ><span>幽邃所生</span
+  ><span>卉木药草</span
+  ><span>大小诸树</span>
+  <span>百谷苗稼</span
+  ><span>甘蔗蒲萄</span
+  ><span>雨之所润</span
+  ><span>无不丰足</span>
+  <span>乾地普洽</span
+  ><span>药木并茂</span
+  ><span>其云所出</span
+  ><span>一味之水</span>
+  <span>草木丛林</span
+  ><span>随分受润</span>
+  <span>一切诸树</span
+  ><span>上中下等</span
+  ><span>称其大小</span
+  ><span>各得生长</span>
+  <span>根茎枝叶</span
+  ><span>华果光色</span
+  ><span>一雨所及</span
+  ><span>皆得鲜泽</span>
+  <span>如其体相</span
+  ><span>性分大小</span
+  ><span>所润是一</span
+  ><span>而各滋茂</span>
+  <span>佛亦如是</span
+  ><span>出现于世</span
+  ><span>譬如大云</span
+  ><span>普覆一切</span>
+  <span>既出于世</span
+  ><span>为诸众生</span
+  ><span>分别演说</span
+  ><span>诸法之实</span>
+  <span>大圣世尊</span
+  ><span>于诸天人</span
+  ><span>一切众中</span
+  ><span>而宣是言</span>
+  <span>我为如来</span
+  ><span>两足之尊</span
+  ><span>出于世间</span
+  ><span>犹如大云</span>
+  <span>充润一切</span
+  ><span>枯槁众生</span
+  ><span>皆令离苦</span
+  ><span>得安隐乐</span>
+  <span>世间之乐</span
+  ><span>及涅槃乐</span
+  ><span>诸天人众</span
+  ><span>一心善听</span>
+  <span>皆应到此</span
+  ><span>觐无上尊</span>
+  <span>我为世尊</span
+  ><span>无能及者</span
+  ><span>安隐众生</span
+  ><span>故现于世</span>
+  <span>为大众说</span
+  ><span>甘露净法</span
+  ><span>其法一味</span
+  ><span>解脱涅槃</span>
+  <span>以一妙音</span
+  ><span>演畅斯义</span
+  ><span>常为大乘</span
+  ><span>而作因缘</span>
+  <span>我观一切</span
+  ><span>普皆平等</span
+  ><span>无有彼此</span
+  ><span>爱憎之心</span>
+  <span>我无贪着</span
+  ><span>亦无限碍</span
+  ><span>恒为一切</span
+  ><span>平等说法</span>
+  <span>如为一人</span
+  ><span>众多亦然</span
+  ><span>常演说法</span
+  ><span>曾无他事</span>
+  <span>去来坐立</span
+  ><span>终不疲厌</span
+  ><span>充足世间</span
+  ><span>如雨普润</span>
+  <span>贵贱上下</span
+  ><span>持戒毁戒</span
+  ><span>威仪具足</span
+  ><span>及不具足</span>
+  <span>正见邪见</span
+  ><span>利根钝根</span
+  ><span>等雨法雨</span
+  ><span>而无懈倦</span>
+  <span>一切众生</span
+  ><span>闻我法者</span
+  ><span>随力所受</span
+  ><span>住于诸地</span>
+  <span>或处人天</span
+  ><span>转轮圣王</span
+  ><span>释梵诸王</span
+  ><span>是小药草</span>
+  <span>知无漏法</span
+  ><span>能得涅槃</span
+  ><span>起六神通</span
+  ><span>及得三明</span>
+  <span>独处山林</span
+  ><span>常行禅定</span
+  ><span>得缘觉证</span
+  ><span>是中药草</span>
+  <span>求世尊处</span
+  ><span>我当作佛</span
+  ><span>行精进定</span
+  ><span>是上药草</span>
+  <span>又诸佛子</span
+  ><span>专心佛道</span
+  ><span>常行慈悲</span
+  ><span>自知作佛</span>
+  <span>决定无疑</span
+  ><span>是名小树</span>
+  <span>安住神通</span
+  ><span>转不退轮</span
+  ><span>度无量亿</span
+  ><span>百千众生</span>
+  <span>如是菩萨</span
+  ><span>名为大树</span>
+  <span>佛平等说</span
+  ><span>如一味雨</span
+  ><span>随众生性</span
+  ><span>所受不同</span>
+  <span>如彼草木</span
+  ><span>所禀各异</span>
+  <span>佛以此喻</span
+  ><span>方便开示</span
+  ><span>种种言辞</span
+  ><span>演说一法</span>
+  <span>于佛智慧</span
+  ><span>如海一滴</span>
+  <span>我雨法雨</span
+  ><span>充满世间</span
+  ><span>一味之法</span
+  ><span>随力修行</span>
+  <span>如彼丛林</span
+  ><span>药草诸树</span
+  ><span>随其大小</span
+  ><span>渐增茂好</span>
+  <span>诸佛之法</span
+  ><span>常以一味</span
+  ><span>令诸世间</span
+  ><span>普得具足</span>
+  <span>渐次修行</span
+  ><span>皆得道果</span>
+  <span>声闻缘觉</span
+  ><span>处于山林</span
+  ><span>住最后身</span
+  ><span>闻法得果</span>
+  <span>是名药草</span
+  ><span>各得增长</span>
+  <span>若诸菩萨</span
+  ><span>智慧坚固</span
+  ><span>了达三界</span
+  ><span>求最上乘</span>
+  <span>是名小树</span
+  ><span>而得增长</span>
+  <span>复有住禅</span
+  ><span>得神通力</span
+  ><span>闻诸法空</span
+  ><span>心大欢喜</span>
+  <span>放无数光</span
+  ><span>度诸众生</span
+  ><span>是名大树</span
+  ><span>而得增长</span>
+  <span>如是迦叶</span
+  ><span>佛所说法</span
+  ><span>譬如大云</span
+  ><span>以一味雨</span
+  ><span>润于人华</span
+  ><span>各得成实</span>
+  <span>迦叶当知</span
+  ><span>以诸因缘</span
+  ><span>种种譬喻</span
+  ><span>开示佛道</span
+  ><span>是我方便</span
+  ><span>诸佛亦然</span>
+  <span>今为汝等</span
+  ><span>说最实事</span
+  ><span>诸声闻众</span
+  ><span>皆非灭度</span>
+  <span>汝等所行</span
+  ><span>是菩萨道</span
+  ><span>渐渐修学</span
+  ><span>悉当成佛</span>
 </div>
 <div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

@@ -44,16 +44,16 @@
   宁上我头上，莫恼于法师。若夜叉、若罗刹、若饿鬼、若富单那、若吉蔗、若毗陀罗、若犍驮、若乌摩勒伽、若阿跋摩罗、若夜叉吉蔗、若人吉蔗，若热病，若一日、若二日、若三日、若四日、若至七日、若常热病，若男形、若女形、若童男形、若童女形，乃至梦中，亦复莫恼。即于佛前而说偈言：
 </p>
 <div class="commentary">
-  <span class="commentary__sentence">若不顺我咒</span
-  ><span class="commentary__sentence">恼乱说法者</span
-  ><span class="commentary__sentence">头破作七分</span
-  ><span class="commentary__sentence">如阿梨树枝</span>
-  <span class="commentary__sentence">如杀父母罪</span
-  ><span class="commentary__sentence">亦如压油殃</span
-  ><span class="commentary__sentence">斗秤欺诳人</span
-  ><span class="commentary__sentence">调达破僧罪</span>
-  <span class="commentary__sentence">犯此法师者</span
-  ><span class="commentary__sentence">当获如是殃</span>
+  <span>若不顺我咒</span
+  ><span>恼乱说法者</span
+  ><span>头破作七分</span
+  ><span>如阿梨树枝</span>
+  <span>如杀父母罪</span
+  ><span>亦如压油殃</span
+  ><span>斗秤欺诳人</span
+  ><span>调达破僧罪</span>
+  <span>犯此法师者</span
+  ><span>当获如是殃</span>
 </div>
 <p>
   诸罗刹女说此偈已，白佛言：世尊！我等亦当身自拥护受持读诵修行是经者，令得安隐，离诸衰患，消众毒药。

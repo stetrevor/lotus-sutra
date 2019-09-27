@@ -28,14 +28,14 @@
   尔时，二子欲重宣其意，以偈白母：
 </p>
 <div class="commentary">
-  <span class="commentary__sentence">愿母放我等</span
-  ><span class="commentary__sentence">出家作沙门</span
-  ><span class="commentary__sentence">诸佛甚难值</span
-  ><span class="commentary__sentence">我等随佛学</span>
-  <span class="commentary__sentence">如优昙钵华</span
-  ><span class="commentary__sentence">值佛复难是</span
-  ><span class="commentary__sentence">脱诸难亦难</span
-  ><span class="commentary__sentence">愿听我出家</span>
+  <span>愿母放我等</span
+  ><span>出家作沙门</span
+  ><span>诸佛甚难值</span
+  ><span>我等随佛学</span>
+  <span>如优昙钵华</span
+  ><span>值佛复难是</span
+  ><span>脱诸难亦难</span
+  ><span>愿听我出家</span>
 </div>
 <p>
   母即告言，听汝出家，所以者何？佛难值故。于是二子白父母言：善哉父母！愿时往诣云雷音宿王华智佛所，亲近供养，所以者何？佛难得值，如优昙钵罗华，又如一眼之龟值浮木孔，而我等宿福深厚，生值佛法，是故父母当听我等，令得出家。所以者何？诸佛难值，时亦难遇。

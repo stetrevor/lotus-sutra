@@ -139,110 +139,110 @@
   尔时，无尽意菩萨以偈问曰：
 </p>
 <div class="commentary">
-  <span class="commentary__sentence">世尊妙相具</span
-  ><span class="commentary__sentence">我今重问彼</span
-  ><span class="commentary__sentence">佛子何因缘</span
-  ><span class="commentary__sentence">名为观世音</span>
-  <span class="commentary__sentence">具足妙相尊</span
-  ><span class="commentary__sentence">偈答无尽意</span
-  ><span class="commentary__sentence">汝听观音行</span
-  ><span class="commentary__sentence">善应诸方所</span>
-  <span class="commentary__sentence">弘誓深如海</span
-  ><span class="commentary__sentence">历劫不思议</span
-  ><span class="commentary__sentence">侍多千亿佛</span
-  ><span class="commentary__sentence">发大清净愿</span>
-  <span class="commentary__sentence">我为汝略说</span
-  ><span class="commentary__sentence">闻名及见身</span
-  ><span class="commentary__sentence">心念不空过</span
-  ><span class="commentary__sentence">能灭诸有苦</span>
-  <span class="commentary__sentence">假使兴害意</span
-  ><span class="commentary__sentence">推落大火坑</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">火坑变成池</span>
-  <span class="commentary__sentence">或漂流巨海</span
-  ><span class="commentary__sentence">龙鱼诸鬼难</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">波浪不能没</span>
-  <span class="commentary__sentence">或在须弥峰</span
-  ><span class="commentary__sentence">为人所推堕</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">如日虚空住</span>
-  <span class="commentary__sentence">或被恶人逐</span
-  ><span class="commentary__sentence">堕落金刚山</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">不能损一毛</span>
-  <span class="commentary__sentence">或值怨贼绕</span
-  ><span class="commentary__sentence">各执刀加害</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">咸即起慈心</span>
-  <span class="commentary__sentence">或遭王难苦</span
-  ><span class="commentary__sentence">临刑欲寿终</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">刀寻段段坏</span>
-  <span class="commentary__sentence">或囚禁枷锁</span
-  ><span class="commentary__sentence">手足被杻械</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">释然得解脱</span>
-  <span class="commentary__sentence">咒诅诸毒药</span
-  ><span class="commentary__sentence">所欲害身者</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">还着于本人</span>
-  <span class="commentary__sentence">或遇恶罗刹</span
-  ><span class="commentary__sentence">毒龙诸鬼等</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">时悉不敢害</span>
-  <span class="commentary__sentence">若恶兽围绕</span
-  ><span class="commentary__sentence">利牙爪可怖</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">疾走无边方</span>
-  <span class="commentary__sentence">蚖蛇及蝮蝎</span
-  ><span class="commentary__sentence">气毒烟火然</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">寻声自回去</span>
-  <span class="commentary__sentence">云雷鼓掣电</span
-  ><span class="commentary__sentence">降雹澍大雨</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">应时得消散</span>
-  <span class="commentary__sentence">众生被困厄</span
-  ><span class="commentary__sentence">无量苦逼身</span
-  ><span class="commentary__sentence">观音妙智力</span
-  ><span class="commentary__sentence">能救世间苦</span>
-  <span class="commentary__sentence">具足神通力</span
-  ><span class="commentary__sentence">广修智方便</span
-  ><span class="commentary__sentence">十方诸国土</span
-  ><span class="commentary__sentence">无刹不现身</span>
-  <span class="commentary__sentence">种种诸恶趣</span
-  ><span class="commentary__sentence">地狱鬼畜生</span
-  ><span class="commentary__sentence">生老病死苦</span
-  ><span class="commentary__sentence">以渐悉令灭</span>
-  <span class="commentary__sentence">真观清净观</span
-  ><span class="commentary__sentence">广大智慧观</span
-  ><span class="commentary__sentence">悲观及慈观</span
-  ><span class="commentary__sentence">常愿常瞻仰</span>
-  <span class="commentary__sentence">无垢清净光</span
-  ><span class="commentary__sentence">慧日破诸闇</span
-  ><span class="commentary__sentence">能伏灾风火</span
-  ><span class="commentary__sentence">普明照世间</span>
-  <span class="commentary__sentence">悲体戒雷震</span
-  ><span class="commentary__sentence">慈意妙大云</span
-  ><span class="commentary__sentence">澍甘露法雨</span
-  ><span class="commentary__sentence">灭除烦恼焰</span>
-  <span class="commentary__sentence">诤讼经官处</span
-  ><span class="commentary__sentence">怖畏军阵中</span
-  ><span class="commentary__sentence">念彼观音力</span
-  ><span class="commentary__sentence">众怨悉退散</span>
-  <span class="commentary__sentence">妙音观世音</span
-  ><span class="commentary__sentence">梵音海潮音</span
-  ><span class="commentary__sentence">胜彼世间音</span
-  ><span class="commentary__sentence">是故须常念</span>
-  <span class="commentary__sentence">念念勿生疑</span
-  ><span class="commentary__sentence">观世音净圣</span
-  ><span class="commentary__sentence">于苦恼死厄</span
-  ><span class="commentary__sentence">能为作依怙</span>
-  <span class="commentary__sentence">具一切功德</span
-  ><span class="commentary__sentence">慈眼视众生</span
-  ><span class="commentary__sentence">福聚海无量</span
-  ><span class="commentary__sentence">是故应顶礼</span>
+  <span>世尊妙相具</span
+  ><span>我今重问彼</span
+  ><span>佛子何因缘</span
+  ><span>名为观世音</span>
+  <span>具足妙相尊</span
+  ><span>偈答无尽意</span
+  ><span>汝听观音行</span
+  ><span>善应诸方所</span>
+  <span>弘誓深如海</span
+  ><span>历劫不思议</span
+  ><span>侍多千亿佛</span
+  ><span>发大清净愿</span>
+  <span>我为汝略说</span
+  ><span>闻名及见身</span
+  ><span>心念不空过</span
+  ><span>能灭诸有苦</span>
+  <span>假使兴害意</span
+  ><span>推落大火坑</span
+  ><span>念彼观音力</span
+  ><span>火坑变成池</span>
+  <span>或漂流巨海</span
+  ><span>龙鱼诸鬼难</span
+  ><span>念彼观音力</span
+  ><span>波浪不能没</span>
+  <span>或在须弥峰</span
+  ><span>为人所推堕</span
+  ><span>念彼观音力</span
+  ><span>如日虚空住</span>
+  <span>或被恶人逐</span
+  ><span>堕落金刚山</span
+  ><span>念彼观音力</span
+  ><span>不能损一毛</span>
+  <span>或值怨贼绕</span
+  ><span>各执刀加害</span
+  ><span>念彼观音力</span
+  ><span>咸即起慈心</span>
+  <span>或遭王难苦</span
+  ><span>临刑欲寿终</span
+  ><span>念彼观音力</span
+  ><span>刀寻段段坏</span>
+  <span>或囚禁枷锁</span
+  ><span>手足被杻械</span
+  ><span>念彼观音力</span
+  ><span>释然得解脱</span>
+  <span>咒诅诸毒药</span
+  ><span>所欲害身者</span
+  ><span>念彼观音力</span
+  ><span>还着于本人</span>
+  <span>或遇恶罗刹</span
+  ><span>毒龙诸鬼等</span
+  ><span>念彼观音力</span
+  ><span>时悉不敢害</span>
+  <span>若恶兽围绕</span
+  ><span>利牙爪可怖</span
+  ><span>念彼观音力</span
+  ><span>疾走无边方</span>
+  <span>蚖蛇及蝮蝎</span
+  ><span>气毒烟火然</span
+  ><span>念彼观音力</span
+  ><span>寻声自回去</span>
+  <span>云雷鼓掣电</span
+  ><span>降雹澍大雨</span
+  ><span>念彼观音力</span
+  ><span>应时得消散</span>
+  <span>众生被困厄</span
+  ><span>无量苦逼身</span
+  ><span>观音妙智力</span
+  ><span>能救世间苦</span>
+  <span>具足神通力</span
+  ><span>广修智方便</span
+  ><span>十方诸国土</span
+  ><span>无刹不现身</span>
+  <span>种种诸恶趣</span
+  ><span>地狱鬼畜生</span
+  ><span>生老病死苦</span
+  ><span>以渐悉令灭</span>
+  <span>真观清净观</span
+  ><span>广大智慧观</span
+  ><span>悲观及慈观</span
+  ><span>常愿常瞻仰</span>
+  <span>无垢清净光</span
+  ><span>慧日破诸闇</span
+  ><span>能伏灾风火</span
+  ><span>普明照世间</span>
+  <span>悲体戒雷震</span
+  ><span>慈意妙大云</span
+  ><span>澍甘露法雨</span
+  ><span>灭除烦恼焰</span>
+  <span>诤讼经官处</span
+  ><span>怖畏军阵中</span
+  ><span>念彼观音力</span
+  ><span>众怨悉退散</span>
+  <span>妙音观世音</span
+  ><span>梵音海潮音</span
+  ><span>胜彼世间音</span
+  ><span>是故须常念</span>
+  <span>念念勿生疑</span
+  ><span>观世音净圣</span
+  ><span>于苦恼死厄</span
+  ><span>能为作依怙</span>
+  <span>具一切功德</span
+  ><span>慈眼视众生</span
+  ><span>福聚海无量</span
+  ><span>是故应顶礼</span>
 </div>
 <p>
   尔时，持地菩萨即从座起，前白佛言：世尊！若有众生闻是观世音菩萨品自在之业，普门示现神通力者，当知是人功德不少。
