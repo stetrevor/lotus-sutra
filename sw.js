@@ -1,4 +1,4 @@
-const version = 'v4'
+const version = 'v5'
 
 self.addEventListener('install', function(e) {
   console.log('install')
