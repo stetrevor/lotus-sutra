@@ -35,7 +35,6 @@ async function loadPage(locationHash = window.location.hash) {
 
   const bookmarkY = window.localStorage.getItem('bookmark.Y')
   window.scrollTo(0, bookmarkY || 0)
-
   // Clear bookmark
   window.localStorage.clear()
 }
@@ -55,6 +54,17 @@ function bookmark() {
   // Update app state `bookmark.page` and `bookmark.Y`
   window.localStorage.setItem('bookmark.page', window.location.hash)
   window.localStorage.setItem('bookmark.Y', window.scrollY)
+}
+
+function updateProgress() {
+  const progress = document.querySelector('.reading-progress__progress-bar')
+  const progressText = document.querySelector('.reading-progress__progress')
+  const de = document.documentElement
+  const scrollTop = de.scrollTop
+  const scrollBottom = de.scrollHeight - de.clientHeight
+  const scrollPercent = (scrollTop / scrollBottom) * 100
+  progress.style.setProperty('--scroll', scrollPercent + '%')
+  progressText.textContent = Math.ceil(scrollPercent) + '%'
 }
 
 document.addEventListener('readystatechange', async () => {
@@ -78,45 +88,21 @@ document.addEventListener('readystatechange', async () => {
     })
     // Set up progress bar.
     // See https://medium.com/@nilayvishwakarma/build-a-scroll-progress-bar-with-vanilla-js-in-10-minutes-or-less-4ba07e2554f3.
-    document.addEventListener(
-      'scroll',
-      rafThrottle(() => {
-        const progress = document.querySelector(
-          '.reading-progress__progress-bar'
-        )
-        const progressText = document.querySelector(
-          '.reading-progress__progress'
-        )
-        const de = document.documentElement
-        const scrollTop = de.scrollTop
-        const scrollBottom = de.scrollHeight - de.clientHeight
-        const scrollPercent = (scrollTop / scrollBottom) * 100
-        progress.style.setProperty('--scroll', scrollPercent + '%')
-        progressText.textContent = Math.ceil(scrollPercent) + '%'
-      }),
-      { passive: true }
-    )
-
-    window.addEventListener('beforeunload', bookmark)
-    window.addEventListener('beforeunload', () => {
-      window.localStorage.setItem('bookmark.page', window.location.hash)
-      window.localStorage.setItem('bookmark.Y', window.scrollY)
+    document.addEventListener('scroll', rafThrottle(updateProgress), {
+      passive: true
     })
 
+    window.addEventListener('beforeunload', bookmark)
+
     const bookmarkPage = window.localStorage.getItem('bookmark.page')
-    // Check if bookmark is current page
+    // If hash isn't changing, load the current page again.
     const hash = bookmarkPage || window.location.hash || '#/table-of-contents'
-    window.location.hash = hash
-    console.log('ready hash', hash)
-    await loadPage(hash)
-    calculateReadTime()
+    if (window.location.hash === hash) {
+      window.location.hash = hash
+      await loadPage(hash)
+      calculateReadTime()
+    }
 
     document.body.classList.add('ready')
-  }
-})
-
-document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'hidden') {
-    bookmark()
   }
 })
