@@ -33,11 +33,11 @@ async function loadPage(locationHash = window.location.hash) {
 
   container.innerHTML = marked(data, { gfm: true })
 
-  const bookmarkScrollTop = await idbKeyval.get('bookmark.scrollTop')
+  const bookmarkScrollTop = window.localStorage.getItem('bookmark.scrollTop')
   window.scrollTo(0, bookmarkScrollTop || 0)
 
   // Clear bookmark
-  await idbKeyval.clear()
+  window.localStorage.clear()
 }
 
 /* Reading speed is set at 250 Chinese character per minute, reading out aloud.
@@ -48,6 +48,13 @@ function calculateReadTime() {
   const textHint = document.querySelector('.reading-progress__read-time')
   const minutes = Math.ceil(content.textContent.length / 250)
   textHint.textContent = minutes + ' min read'
+}
+
+function bookmark() {
+  console.log('bookmark')
+  // Update app state `bookmark.page` and `bookmark.scrollTop`
+  window.localStorage.setItem('bookmark.page', window.location.hash)
+  window.localStorage.setItem('bookmark.scrollTop', window.scrollY)
 }
 
 document.addEventListener('readystatechange', async () => {
@@ -90,7 +97,13 @@ document.addEventListener('readystatechange', async () => {
       { passive: true }
     )
 
-    const bookmarkPage = await idbKeyval.get('bookmark.page')
+    window.addEventListener('beforeunload', bookmark)
+    window.addEventListener('beforeunload', () => {
+      window.localStorage.setItem('bookmark.page', window.location.hash)
+      window.localStorage.setItem('bookmark.scrollTop', window.scrollY)
+    })
+
+    const bookmarkPage = window.localStorage.getItem('bookmark.page')
     // Check if bookmark is current page
     const hash = bookmarkPage || window.location.hash || '#/table-of-contents'
     window.location.hash = hash
@@ -102,17 +115,8 @@ document.addEventListener('readystatechange', async () => {
   }
 })
 
-async function bookmark() {
-  console.log('bookmark')
-  // Update app state `bookmark.page` and `bookmark.scrollTop`
-  await idbKeyval.set('bookmark.page', window.location.hash)
-  await idbKeyval.set('bookmark.scrollTop', window.scrollY)
-}
-
-document.addEventListener('visibilitychange', async () => {
+document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'hidden') {
-    await bookmark()
+    bookmark()
   }
 })
-
-window.addEventListener('beforeunload', bookmark)
