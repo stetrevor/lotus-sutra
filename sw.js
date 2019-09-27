@@ -1,7 +1,10 @@
+const verison = 'v3'
+
 self.addEventListener('install', function(e) {
   console.log('install')
+
   e.waitUntil(
-    caches.open('lotus-sutra-v2').then(function(cache) {
+    caches.open(`lotus-sutra-${version}`).then(function(cache) {
       const chapters = Array.from(
         new Array(28),
         (_, i) => `/lotus-sutra/chapter-${i + 1}.md`
@@ -13,11 +16,13 @@ self.addEventListener('install', function(e) {
           '/lotus-sutra/index.js',
           '/lotus-sutra/style.css',
           '/lotus-sutra/icon.png',
-          'https://cdn.jsdelivr.net/combine/npm/marked@0.7.0,npm/idb-keyval@3.2.0/dist/idb-keyval-iife.min.js',
+          'https://cdn.jsdelivr.net/combine/npm/marked@0.7.0,npm/idb-keyval@3.2.0/dist/idb-keyval-iife.min.js'
         ])
       )
     })
-  )
+  ).then(() => {
+    return self.skipWaiting()
+  })
 })
 
 self.addEventListener('fetch', function(e) {
@@ -30,7 +35,7 @@ self.addEventListener('fetch', function(e) {
 })
 
 self.addEventListener('activate', event => {
-  const cacheKeeplist = ['lotus-sutra-v2']
+  const cacheKeeplist = [`lotus-sutra-${version}`]
 
   event.waitUntil(
     caches.keys().then(keyList => {
@@ -42,5 +47,7 @@ self.addEventListener('activate', event => {
         })
       )
     })
-  )
+  ).then(() => {
+    self.clients.claim()
+  })
 })
