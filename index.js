@@ -33,8 +33,8 @@ async function loadPage(locationHash = window.location.hash) {
 
   container.innerHTML = marked(data, { gfm: true })
 
-  const bookmarkScrollTop = window.localStorage.getItem('bookmark.scrollTop')
-  window.scrollTo(0, bookmarkScrollTop || 0)
+  const bookmarkY = window.localStorage.getItem('bookmark.Y')
+  window.scrollTo(0, bookmarkY || 0)
 
   // Clear bookmark
   window.localStorage.clear()
@@ -52,9 +52,9 @@ function calculateReadTime() {
 
 function bookmark() {
   console.log('bookmark')
-  // Update app state `bookmark.page` and `bookmark.scrollTop`
+  // Update app state `bookmark.page` and `bookmark.Y`
   window.localStorage.setItem('bookmark.page', window.location.hash)
-  window.localStorage.setItem('bookmark.scrollTop', window.scrollY)
+  window.localStorage.setItem('bookmark.Y', window.scrollY)
 }
 
 document.addEventListener('readystatechange', async () => {
@@ -100,7 +100,7 @@ document.addEventListener('readystatechange', async () => {
     window.addEventListener('beforeunload', bookmark)
     window.addEventListener('beforeunload', () => {
       window.localStorage.setItem('bookmark.page', window.location.hash)
-      window.localStorage.setItem('bookmark.scrollTop', window.scrollY)
+      window.localStorage.setItem('bookmark.Y', window.scrollY)
     })
 
     const bookmarkPage = window.localStorage.getItem('bookmark.page')
