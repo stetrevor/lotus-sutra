@@ -34,4 +34,10 @@ export default {
     text-align: center;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .home__author {
+    font-size: 0.5em;
+  }
+}
 </style>

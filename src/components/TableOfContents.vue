@@ -63,4 +63,15 @@ export default {
     line-height: 2;
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .table-of-contents {
+    margin: 0.5em;
+    margin-top: 1.999em;
+
+    &__item {
+      font-size: 0.707em;
+    }
+  }
+}
 </style>

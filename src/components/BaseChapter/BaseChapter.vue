@@ -137,4 +137,17 @@ export default {
     background: linear-gradient(to right, #c13a3a var(--scroll), transparent 0);
   }
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  .base-chapter {
+    &__content {
+      margin: 1.999em 0;
+
+      .commentary {
+        grid-template-columns: repeat(2, fit-content(5.4em));
+        gap: 0.1em 0.5em;
+      }
+    }
+  }
+}
 </style>

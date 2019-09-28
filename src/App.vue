@@ -34,4 +34,13 @@ a.router-link-exact-active,
 a:visited {
   color: #c13a3a;
 }
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    margin: 1.999em 1em;
+    font-size: 26px;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+  }
+}
 </style>
