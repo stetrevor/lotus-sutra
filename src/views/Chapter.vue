@@ -2,16 +2,16 @@
   <div class="chapter">
     <router-link to="/">目录</router-link>
 
-    <chapter-content :chapter-num="$route.params.chapter_num" />
+    <base-chapter :chapter-num="$route.params.chapter_num" />
 
     <router-link to="/">目录</router-link>
   </div>
 </template>
 
 <script>
-import ChapterContent from '@/components/ChapterContent/ChapterContent'
+import BaseChapter from '@/components/BaseChapter/BaseChapter'
 
 export default {
-  components: { ChapterContent },
+  components: { BaseChapter },
 }
 </script>
