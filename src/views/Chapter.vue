@@ -7,7 +7,8 @@
 </template>
 
 <script>
-import ChapterContent from '@/components/ChapterContent'
+import ChapterContent from '@/components/ChapterContent/ChapterContent'
+
 export default {
   components: { ChapterContent },
 }

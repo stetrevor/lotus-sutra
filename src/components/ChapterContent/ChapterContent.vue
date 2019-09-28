@@ -13,16 +13,10 @@ export default {
 
   watch: {
     chapterNum: {
-      handler(newValue) {
-        this.content = this.getData(newValue)
+      async handler(newValue) {
+        this.content = require(`./chapter-${newValue}.md`)
       },
       immediate: true,
-    },
-  },
-
-  methods: {
-    getData(newValue) {
-      return `<h1>Got Content</h1><p>Chapter ${newValue} </p>`
     },
   },
 
