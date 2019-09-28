@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第七</h2>
   <h1>陀罗尼品第廿六</h1>
@@ -64,4 +63,3 @@
 <p>
   说是陀罗尼品时，六万八千人得无生法忍。
 </p>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

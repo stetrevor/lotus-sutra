@@ -1,5 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
-
 <hgroup>
   <h2>卷第一</h2>
   <h1>序品第一</h1>
@@ -482,4 +480,3 @@
   ><span>令尽无有余</span>
 </div>
 
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

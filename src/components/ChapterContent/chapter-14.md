@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第五</h2>
   <h1>安乐行品第十四</h1>
@@ -379,4 +378,3 @@
   ><span>是人得大利</span
   ><span>如上诸功德</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

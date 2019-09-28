@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第七</h2>
   <h1>妙庄严王本事品第廿七</h1>
@@ -73,4 +72,3 @@
 <p>
   佛说是妙庄严王本事品时，八万四千人远尘离垢，于诸法中，得法眼净。
 </p>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

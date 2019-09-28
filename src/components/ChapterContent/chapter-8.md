@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第四</h2>
   <h1>五百弟子授记品第八</h1>
@@ -211,4 +210,3 @@
   ><span>乃转次受决</span
   ><span>身心遍欢喜</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

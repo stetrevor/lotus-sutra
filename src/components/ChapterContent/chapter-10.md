@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第四</h2>
   <h1>法师品第十</h1>
@@ -169,4 +168,3 @@
   ><span>随顺是师学</span
   ><span>得见恒沙佛</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

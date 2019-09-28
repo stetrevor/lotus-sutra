@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第二</h2>
   <h1>譬喻品第三</h1>
@@ -346,4 +345,3 @@
   ><span>求佛道者</span><span>穷劫不尽</span> <span>如是等人</span
   ><span>则能信解</span><span>汝当为说</span><span>妙法华经</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

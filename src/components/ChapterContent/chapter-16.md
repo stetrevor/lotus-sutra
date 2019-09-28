@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第五</h2>
   <h1>如来寿量品第十六</h1>
@@ -110,4 +109,3 @@
   ><span>得入无上慧</span
   ><span>速成就佛身</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第三</h2>
   <h1>授记品第六</h1>
@@ -233,4 +232,3 @@
   <span>吾今当说</span
   ><span>汝等善听</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

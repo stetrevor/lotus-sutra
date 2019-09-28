@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第二</h2>
   <h1>信解品第四</h1>
@@ -373,4 +372,3 @@
   ><span>于一乘道</span
   ><span>随宜说三</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>

@@ -1,4 +1,3 @@
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
 <hgroup>
   <h2>卷第三</h2>
   <h1>化城喻品第七</h1>
@@ -539,4 +538,3 @@
   ><span>既知是息已</span
   ><span>引入于佛慧</span>
 </div>
-<div class="menu"><a href="/lotus-sutra/#/table-of-contents">目录</a></div>
