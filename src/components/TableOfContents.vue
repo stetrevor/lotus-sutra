@@ -1,6 +1,10 @@
 <template>
   <ol class="table-of-contents">
-    <li v-for="(chapter, index) in chapters" :key="index">
+    <li
+      class="table-of-contents__item"
+      v-for="(chapter, index) in chapters"
+      :key="index"
+    >
       <router-link :to="chapter.route">{{ chapter.title }}</router-link>
     </li>
   </ol>
@@ -48,3 +52,15 @@ export default {
   },
 }
 </script>
+
+<style lang="scss">
+.table-of-contents {
+  margin: 1.414em;
+  margin-top: 2.827em;
+
+  &__item {
+    font-size: 1.414em;
+    line-height: 2;
+  }
+}
+</style>

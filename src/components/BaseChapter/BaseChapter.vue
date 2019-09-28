@@ -87,6 +87,34 @@ export default {
 .base-chapter {
   position: relative;
 
+  &__content {
+    margin: 2.827em 1em;
+
+    h1 {
+      font-size: 1.414em;
+      font-weight: normal;
+      color: #72420e;
+    }
+
+    h2 {
+      font-size: 1em;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 1em;
+      margin-bottom: 1.414em;
+    }
+
+    .commentary {
+      margin-bottom: 1.414em;
+      font-size: 1em;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
+      gap: 0 8px;
+    }
+  }
+
   &__reading-progress {
     position: fixed;
     bottom: 0;
