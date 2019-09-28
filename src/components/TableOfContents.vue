@@ -41,7 +41,7 @@ export default {
     ]
     return {
       chapters: titles.map((t, i) => ({
-        route: `/chapter-${i + 1}`,
+        route: `/chapter/${i + 1}`,
         title: t,
       })),
     }
