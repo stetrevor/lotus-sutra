@@ -7,7 +7,7 @@
         <div class="base-chapter__progress">{{ progress }}</div>
         <div class="base-chapter__read-time">{{ readMinutes }}</div>
       </div>
-      <div ref="progressBar" class="base-chapter__progress-bar"></div>
+      <div class="base-chapter__progress-bar"></div>
     </div>
   </div>
 </template>
@@ -64,7 +64,9 @@ export default {
       const scrollTop = de.scrollTop
       const scrollBottom = de.scrollHeight - de.clientHeight
       const scrollPercent = (scrollTop / scrollBottom) * 100
-      this.$refs.progressBar.style.setProperty('--scroll', scrollPercent + '%')
+      this.$el
+        .querySelector('.base-chapter__progress-bar')
+        .style.setProperty('--scroll', scrollPercent + '%')
       this.progress = Math.ceil(scrollPercent) + '%'
     },
   },
