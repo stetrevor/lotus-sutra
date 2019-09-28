@@ -14,7 +14,8 @@ export default {
   watch: {
     chapterNum: {
       async handler(newValue) {
-        this.content = require(`./chapter-${newValue}.md`)
+        const md = await import(`./chapter-${newValue}.md`)
+        this.content = md.default
       },
       immediate: true,
     },
