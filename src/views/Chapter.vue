@@ -28,6 +28,8 @@
 import BaseChapter from '@/components/BaseChapter/BaseChapter'
 
 export default {
+  name: 'chapter',
+
   components: { BaseChapter },
 
   computed: {
