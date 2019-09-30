@@ -11,10 +11,33 @@
 // @ is an alias to /src
 import TableOfContents from '@/components/TableOfContents.vue'
 
+import { bookmark } from '@/storage'
+
+console.log('bookmark', bookmark)
+
 export default {
   name: 'home',
+
   components: {
     TableOfContents,
+  },
+
+  beforeRouteEnter(to, from, next) {
+    if (from.name === 'chapter') {
+      return next()
+    }
+
+    const chapterNum = bookmark.getChapter()
+    if (chapterNum !== null) {
+      const answer = window.confirm('Bookmark found, go to last read position?')
+      if (answer) {
+        next(`/chapter/${chapterNum}?Y=${bookmark.getY()}`)
+      } else {
+        next()
+      }
+    } else {
+      next()
+    }
   },
 }
 </script>
