@@ -46,7 +46,7 @@ export default {
             content.textContent.length / 250,
           )} min read`
 
-          window.scrollTo(0, 0)
+          window.scrollTo(0, this.$route.query.Y || 0)
         })
       },
       immediate: true,
