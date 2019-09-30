@@ -20,22 +20,26 @@ export default {
 </script>
 
 <style lang="scss">
-.home {
-  &__title {
-    font-size: 12vw;
-    font-weight: normal;
-    letter-spacing: 0.15em;
-    text-align: center;
-  }
+@media screen and (max-width: 359px) {
+  .home {
+    margin: 1.999em 1em;
 
-  &__author {
-    font-size: 1em;
-    font-weight: normal;
-    text-align: center;
+    &__title {
+      font-size: 13vw;
+      font-weight: normal;
+      letter-spacing: 0.15em;
+      text-align: center;
+    }
+
+    &__author {
+      font-size: 0.5em;
+      font-weight: normal;
+      text-align: center;
+    }
   }
 }
 
-@media screen and (max-width: 359px) {
+@media screen and (min-width: 360px) and (max-width: 399px) {
   .home {
     margin: 1.999em 1em;
 

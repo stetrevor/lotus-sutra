@@ -45,4 +45,12 @@ a:visited {
     line-height: 1.7;
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 399px) {
+  body {
+    font-size: 26px;
+    letter-spacing: 0.1em;
+    line-height: 1.7;
+  }
+}
 </style>

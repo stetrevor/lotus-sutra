@@ -64,4 +64,15 @@ export default {
     }
   }
 }
+
+@media screen and (min-width: 360px) and (max-width: 399px) {
+  .table-of-contents {
+    margin-top: 1.999em;
+
+    &__item {
+      font-size: 0.707em;
+      line-height: 2;
+    }
+  }
+}
 </style>

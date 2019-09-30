@@ -122,7 +122,40 @@ export default {
       h1 {
         margin-top: 0em;
         font-size: 1em;
+        color: #72420e;
+      }
+
+      h2 {
+        margin-bottom: 0.354em;
+        font-size: 0.707em;
         font-weight: normal;
+      }
+
+      p {
+        font-size: 1em;
+        margin-bottom: 1.414em;
+      }
+
+      .commentary {
+        margin-bottom: 1.414em;
+        font-size: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        gap: 0.1em 0.5em;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 399px) {
+  .base-chapter {
+    &__content {
+      margin: 1.999em 0;
+      font-size: 22px;
+
+      h1 {
+        margin-top: 0em;
+        font-size: 1em;
         color: #72420e;
       }
 
