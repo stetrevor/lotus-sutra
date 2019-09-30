@@ -40,14 +40,14 @@ export default {
       async handler(newValue) {
         const md = await import(`./chapter-${newValue}.md`)
         this.content = md.default
+        this.$nextTick(() => {
+          const content = this.$el.querySelector('.base-chapter__content')
+          this.readMinutes = `${Math.round(
+            content.textContent.length / 250,
+          )} min read`
+        })
       },
       immediate: true,
-    },
-  },
-
-  computed: {
-    readMinutes() {
-      return `${Math.round(this.content.length / 250)} min read`
     },
   },
 
@@ -55,6 +55,7 @@ export default {
     return {
       content: '',
       progress: '0%',
+      readMinutes: '',
     }
   },
 
