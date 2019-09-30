@@ -70,4 +70,20 @@ export default {
     }
   }
 }
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+  .chapter {
+    margin: 1.999em 1em;
+
+    &__nav {
+      display: flex;
+      align-content: space-between;
+
+      a {
+        flex-grow: 1;
+        text-align: center;
+      }
+    }
+  }
+}
 </style>

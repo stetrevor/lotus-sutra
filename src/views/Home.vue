@@ -57,4 +57,23 @@ export default {
     }
   }
 }
+
+@media screen and (min-width: 400px) and (max-width: 479px) {
+  .home {
+    margin: 1.999em 1em;
+
+    &__title {
+      font-size: 13vw;
+      font-weight: normal;
+      letter-spacing: 0.15em;
+      text-align: center;
+    }
+
+    &__author {
+      font-size: 0.5em;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
+}
 </style>
