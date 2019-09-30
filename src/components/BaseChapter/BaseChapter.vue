@@ -45,6 +45,8 @@ export default {
           this.readMinutes = `${Math.round(
             content.textContent.length / 250,
           )} min read`
+
+          window.scrollTo(0, 0)
         })
       },
       immediate: true,
