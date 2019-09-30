@@ -54,46 +54,23 @@ export default {
 </script>
 
 <style lang="scss">
-@media screen and (max-width: 359px) {
-  .table-of-contents {
-    margin-top: 1.999em;
+.table-of-contents {
+  margin: 0;
+  margin-top: 1.999em;
 
-    &__item {
-      font-size: 0.707em;
-      line-height: 2;
-    }
+  &__item {
+    font-size: 0.707em;
+    line-height: 2;
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 399px) {
-  .table-of-contents {
-    margin-top: 1.999em;
-
-    &__item {
-      font-size: 0.707em;
-      line-height: 2;
-    }
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 479px) {
+@media screen and (min-width: 400px) {
   .table-of-contents {
     margin: 1em;
     margin-top: 1.999em;
 
     &__item {
-      line-height: 2;
-    }
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 599px) {
-  .table-of-contents {
-    margin: 1em;
-    margin-top: 1.999em;
-
-    &__item {
-      line-height: 2;
+      font-size: 1em;
     }
   }
 }

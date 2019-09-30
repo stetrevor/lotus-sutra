@@ -39,66 +39,16 @@ export default {
 </script>
 
 <style lang="scss">
-@media screen and (max-width: 359px) {
-  .chapter {
-    margin: 1.999em 1em;
+.chapter {
+  margin: 1.999em 1em;
 
-    &__nav {
-      display: flex;
-      align-content: space-between;
+  &__nav {
+    display: flex;
+    align-content: space-between;
 
-      a {
-        flex-grow: 1;
-        text-align: center;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 360px) and (max-width: 399px) {
-  .chapter {
-    margin: 1.999em 1em;
-
-    &__nav {
-      display: flex;
-      align-content: space-between;
-
-      a {
-        flex-grow: 1;
-        text-align: center;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 479px) {
-  .chapter {
-    margin: 1.999em 1em;
-
-    &__nav {
-      display: flex;
-      align-content: space-between;
-
-      a {
-        flex-grow: 1;
-        text-align: center;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 599px) {
-  .chapter {
-    margin: 1.999em 1em;
-
-    &__nav {
-      display: flex;
-      align-content: space-between;
-
-      a {
-        flex-grow: 1;
-        text-align: center;
-      }
+    a {
+      flex-grow: 1;
+      text-align: center;
     }
   }
 }

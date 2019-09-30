@@ -46,27 +46,9 @@ a:visited {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 399px) {
-  body {
-    font-size: 26px;
-    letter-spacing: 0.1em;
-    line-height: 1.7;
-  }
-}
-
-@media screen and (min-width: 400px) and (max-width: 479px) {
-  body {
-    font-size: 26px;
-    letter-spacing: 0.1em;
-    line-height: 1.7;
-  }
-}
-
-@media screen and (min-width: 480px) and (max-width: 599px) {
-  body {
-    font-size: 26px;
-    letter-spacing: 0.1em;
-    line-height: 1.7;
-  }
+body {
+  font-size: 26px;
+  letter-spacing: 0.1em;
+  line-height: 1.7;
 }
 </style>
