@@ -90,34 +90,6 @@ export default {
 .base-chapter {
   position: relative;
 
-  &__content {
-    margin: 2.827em 1em;
-
-    h1 {
-      font-size: 1.414em;
-      font-weight: normal;
-      color: #72420e;
-    }
-
-    h2 {
-      font-size: 1em;
-      font-weight: normal;
-    }
-
-    p {
-      font-size: 1em;
-      margin-bottom: 1.414em;
-    }
-
-    .commentary {
-      margin-bottom: 1.414em;
-      font-size: 1em;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(5em, 1fr));
-      gap: 0 8px;
-    }
-  }
-
   &__reading-progress {
     position: fixed;
     bottom: 0;
@@ -141,13 +113,35 @@ export default {
   }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 359px) {
   .base-chapter {
     &__content {
       margin: 1.999em 0;
+      font-size: 22px;
+
+      h1 {
+        margin-top: 0em;
+        font-size: 1em;
+        font-weight: normal;
+        color: #72420e;
+      }
+
+      h2 {
+        margin-bottom: 0.354em;
+        font-size: 0.707em;
+        font-weight: normal;
+      }
+
+      p {
+        font-size: 1em;
+        margin-bottom: 1.414em;
+      }
 
       .commentary {
-        grid-template-columns: repeat(2, fit-content(5.4em));
+        margin-bottom: 1.414em;
+        font-size: 1em;
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
         gap: 0.1em 0.5em;
       }
     }

@@ -5,12 +5,15 @@
 </template>
 
 <style lang="scss">
+/* colors and font family
+ */
 body {
-  margin: 2.827em 1.999em;
+  margin: 0; // reset body margin
+  // margin: 2.827em 1.999em;
   color: #905c21; /* grizzly */
   background-color: #f7ebde; /* moccasin */
-  font-size: 14px;
-  line-height: 1.6;
+  // font-size: 14px;
+  // line-height: 1.6;
 }
 
 #app {
@@ -25,7 +28,7 @@ body {
 }
 
 a {
-  font-size: 1.414em;
+  // font-size: 1.414em;
   color: #905c21;
   text-decoration: none;
 }
@@ -35,9 +38,8 @@ a:visited {
   color: #c13a3a;
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 359px) {
   body {
-    margin: 1.999em 1em;
     font-size: 26px;
     letter-spacing: 0.1em;
     line-height: 1.7;

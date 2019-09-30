@@ -35,9 +35,22 @@ export default {
   }
 }
 
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
-  .home__author {
-    font-size: 0.5em;
+@media screen and (max-width: 359px) {
+  .home {
+    margin: 1.999em 1em;
+
+    &__title {
+      font-size: 13vw;
+      font-weight: normal;
+      letter-spacing: 0.15em;
+      text-align: center;
+    }
+
+    &__author {
+      font-size: 0.5em;
+      font-weight: normal;
+      text-align: center;
+    }
   }
 }
 </style>

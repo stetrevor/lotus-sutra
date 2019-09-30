@@ -39,15 +39,18 @@ export default {
 </script>
 
 <style lang="scss">
-.chapter {
-  &__nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
+@media screen and (max-width: 359px) {
+  .chapter {
+    margin: 1.999em 1em;
 
-    a {
-      flex-grow: 1;
-      width: max-content;
+    &__nav {
+      display: flex;
+      align-content: space-between;
+
+      a {
+        flex-grow: 1;
+        text-align: center;
+      }
     }
   }
 }

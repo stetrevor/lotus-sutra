@@ -54,23 +54,13 @@ export default {
 </script>
 
 <style lang="scss">
-.table-of-contents {
-  margin: 1.414em;
-  margin-top: 2.827em;
-
-  &__item {
-    font-size: 1.414em;
-    line-height: 2;
-  }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 2) {
+@media screen and (max-width: 359px) {
   .table-of-contents {
-    margin: 0.5em;
     margin-top: 1.999em;
 
     &__item {
       font-size: 0.707em;
+      line-height: 2;
     }
   }
 }
