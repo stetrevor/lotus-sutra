@@ -129,13 +129,13 @@ export default {
     }
 
     p {
-      font-size: 1em;
+      font-size: 1.414em;
       margin-bottom: 1.414em;
     }
 
     .commentary {
       margin-bottom: 1.414em;
-      font-size: 1em;
+      font-size: 1.414em;
       display: grid;
       grid-template-columns: repeat(2, max-content);
       gap: 0.1em 0.5em;
