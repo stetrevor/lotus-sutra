@@ -86,4 +86,20 @@ export default {
     }
   }
 }
+
+@media screen and (min-width: 480px) and (max-width: 599px) {
+  .chapter {
+    margin: 1.999em 1em;
+
+    &__nav {
+      display: flex;
+      align-content: space-between;
+
+      a {
+        flex-grow: 1;
+        text-align: center;
+      }
+    }
+  }
+}
 </style>
