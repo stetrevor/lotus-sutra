@@ -47,7 +47,6 @@ body {
 
 @include media-query-small {
   body {
-    background-color: violet;
     font-size: $font-size-min;
     letter-spacing: width($font-size-min, $letter-spacing);
   }
@@ -55,7 +54,6 @@ body {
 
 @include media-query-medium {
   body {
-    // background-color: aqua;
     font-size: $font-size-medium;
     letter-spacing: width($font-size-medium, $letter-spacing);
   }
@@ -63,7 +61,6 @@ body {
 
 @include media-query-large {
   body {
-    background-color: yellow;
     font-size: $font-size-max;
     letter-spacing: width($font-size-max, $letter-spacing);
   }
