@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import { bookmark } from '@/storage'
+
 function rafThrottle(fn) {
   let busy = false
 
@@ -72,16 +74,24 @@ export default {
         .style.setProperty('--scroll', scrollPercent + '%')
       this.progress = Math.ceil(scrollPercent) + '%'
     },
+
+    saveBookmarkY() {
+      bookmark.setY(window.scrollY)
+    },
   },
 
   mounted() {
     document.addEventListener('scroll', rafThrottle(this.updateProgress), {
       passive: true,
     })
+    document.addEventListener('scroll', rafThrottle(this.saveBookmarkY), {
+      passive: true,
+    })
   },
 
   beforeDestroy() {
     document.removeEventListener('scroll', rafThrottle(this.updateProgress))
+    document.removeEventListener('scroll', rafThrottle(this.saveBookmarkY))
   },
 }
 </script>
