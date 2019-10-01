@@ -27,6 +27,8 @@
 <script>
 import BaseChapter from '@/components/BaseChapter/BaseChapter'
 
+import { bookmark } from '@/storage'
+
 export default {
   name: 'chapter',
 
@@ -36,6 +38,21 @@ export default {
     chapterNum() {
       return parseInt(this.$route.params.chapter_num)
     },
+  },
+
+  methods: {
+    saveBookmarkChapter(chapterNum) {
+      bookmark.setChapter(chapterNum)
+    },
+  },
+
+  beforeRouteEnter(to, from, next) {
+    next(vm => vm.saveBookmarkChapter(to.params.chapter_num))
+  },
+
+  beforeRouteUpdate(to, from, next) {
+    this.saveBookmarkChapter(to.params.chapter_num)
+    next()
   },
 }
 </script>
