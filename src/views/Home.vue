@@ -13,8 +13,6 @@ import TableOfContents from '@/components/TableOfContents.vue'
 
 import { bookmark } from '@/storage'
 
-console.log('bookmark', bookmark)
-
 export default {
   name: 'home',
 
