@@ -5,6 +5,8 @@
 </template>
 
 <style lang="scss">
+@import '@/scss/_mixins';
+
 /* colors and font family
  */
 body {
@@ -38,17 +40,32 @@ a:visited {
   color: #c13a3a;
 }
 
-@media screen and (max-width: 359px) {
+body {
+  line-height: 1.7;
+  min-width: $query-min-width;
+}
+
+@include media-query-small {
   body {
-    font-size: 26px;
-    letter-spacing: 0.1em;
-    line-height: 1.7;
+    background-color: violet;
+    font-size: $font-size-min;
+    letter-spacing: width($font-size-min, $letter-spacing);
   }
 }
 
-body {
-  font-size: 26px;
-  letter-spacing: 0.1em;
-  line-height: 1.7;
+@include media-query-medium {
+  body {
+    // background-color: aqua;
+    font-size: $font-size-medium;
+    letter-spacing: width($font-size-medium, $letter-spacing);
+  }
+}
+
+@include media-query-large {
+  body {
+    background-color: yellow;
+    font-size: $font-size-max;
+    letter-spacing: width($font-size-max, $letter-spacing);
+  }
 }
 </style>

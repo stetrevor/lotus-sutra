@@ -97,6 +97,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/scss/_mixins';
+
 .base-chapter {
   position: relative;
 
@@ -124,12 +126,12 @@ export default {
 
   &__content {
     margin: 1.999em 0;
-    font-size: 22px;
 
     h1 {
       margin-top: 0em;
-      font-size: 1em;
-      color: #72420e;
+      font-size: 1.414em;
+      font-weight: normal;
+      color: #a2590b;
     }
 
     h2 {
@@ -139,17 +141,34 @@ export default {
     }
 
     p {
-      font-size: 1.414em;
+      font-size: 1em;
       margin-bottom: 1.414em;
     }
 
     .commentary {
       margin-bottom: 1.414em;
-      font-size: 1.414em;
+      font-size: 1em;
       display: grid;
       grid-template-columns: repeat(2, max-content);
-      gap: 0.1em 0.5em;
     }
+  }
+}
+
+@include media-query-small {
+  .base-chapter__content .commentary {
+    gap: width($font-size-min, $gap / 5) width($font-size-min, $gap);
+  }
+}
+
+@include media-query-medium {
+  .base-chapter__content .commentary {
+    gap: width($font-size-medium, $gap / 5) width($font-size-medium, $gap);
+  }
+}
+
+@include media-query-large {
+  .base-chapter__content .commentary {
+    gap: width($font-size-max, $gap / 5) width($font-size-max, $gap);
   }
 }
 </style>

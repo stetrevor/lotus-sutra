@@ -58,8 +58,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import '@/scss/_mixins';
+
 .chapter {
-  margin: 1.999em 1em;
+  margin: 1.999em 0;
 
   &__nav {
     display: flex;
@@ -69,6 +71,27 @@ export default {
       flex-grow: 1;
       text-align: center;
     }
+  }
+}
+
+@include media-query-small {
+  .chapter {
+    margin-left: width($font-size-min, $margin-lr);
+    margin-right: width($font-size-min, $margin-lr);
+  }
+}
+
+@include media-query-medium {
+  .chapter {
+    margin-left: width($font-size-medium, $margin-lr);
+    margin-right: width($font-size-medium, $margin-lr);
+  }
+}
+
+@include media-query-large {
+  .chapter {
+    margin-left: width($font-size-max, $margin-lr);
+    margin-right: width($font-size-max, $margin-lr);
   }
 }
 </style>
