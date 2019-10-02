@@ -12,5 +12,8 @@ module.exports = {
 
   pwa: {
     workboxPluginMode: 'GenerateSW',
+    workboxOptions: {
+      importWorkboxFrom: 'local',
+    },
   },
 }
