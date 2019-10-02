@@ -1,6 +1,7 @@
 {
-  "name": "lotus-sutra",
-  "short_name": "lotus-sutra",
+  "name": "Lotus Sutra (Simplified Chinese)",
+  "short_name": "Lotus Sutra SC",
+  "description": "Lotus Sutra in Simplified Chinese that's easy on the eyes.",
   "icons": [
     {
       "src": "./img/icons/android-chrome-192x192.png",
@@ -15,6 +16,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#4DBA87"
+  "background_color": "#f7ebde",
+  "theme_color": "#f7ebde"
 }
