@@ -9,4 +9,8 @@ module.exports = {
       .use('markdown-loader')
       .loader('markdown-loader')
   },
+
+  pwa: {
+    workboxPluginMode: 'GenerateSW',
+  },
 }
