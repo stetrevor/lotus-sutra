@@ -1,3 +1,5 @@
+const { InjectManifest } = require('workbox-webpack-plugin')
+
 module.exports = {
   chainWebpack: config => {
     config.module
@@ -10,10 +12,12 @@ module.exports = {
       .loader('markdown-loader')
   },
 
-  pwa: {
-    workboxPluginMode: 'GenerateSW',
-    workboxOptions: {
-      importWorkboxFrom: 'local',
-    },
+  configureWebpack: {
+    plugins: [
+      new InjectManifest({
+        swSrc: './src/sw.js',
+        swDest: 'service-worker.js',
+      }),
+    ],
   },
 }
