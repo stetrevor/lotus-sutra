@@ -1,8 +1,57 @@
 <template>
   <div id="app">
     <router-view />
+
+    <snackbar
+      v-if="prompt"
+      message="Newer version. Refresh?"
+      accept-text="refresh"
+      cancel-text="no"
+      @snackbar-accept="reload"
+      @snackbar-cancel="prompt = false"
+    />
   </div>
 </template>
+
+<script>
+import Snackbar from '@/components/Snackbar'
+
+import { Workbox } from 'workbox-window'
+
+export default {
+  components: { Snackbar },
+
+  created() {
+    if ('serviceWorker' in navigator) {
+      const wb = new Workbox('/service-worker.js')
+
+      wb.addEventListener('waiting', () => {
+        this.prompt = true
+      })
+
+      wb.addEventListener('controlling', () => window.location.reload())
+
+      wb.register()
+
+      this.wb = wb
+    }
+  },
+
+  methods: {
+    async reload() {
+      this.prompt = false
+
+      await this.wb.messageSW({ type: 'SKIP_WAITING' })
+    },
+  },
+
+  data() {
+    return {
+      prompt: false,
+    }
+  },
+}
+</script>
 
 <style lang="scss">
 @import '@/scss/_mixins';
