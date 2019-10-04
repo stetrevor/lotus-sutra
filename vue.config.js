@@ -1,4 +1,4 @@
-const { InjectManifest } = require('workbox-webpack-plugin')
+const { GenerateSW } = require('workbox-webpack-plugin')
 
 module.exports = {
   chainWebpack: config => {
@@ -13,11 +13,6 @@ module.exports = {
   },
 
   configureWebpack: {
-    plugins: [
-      new InjectManifest({
-        swSrc: './src/sw.js',
-        swDest: 'service-worker.js',
-      }),
-    ],
+    plugins: [new GenerateSW()],
   },
 }
