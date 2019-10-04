@@ -51,7 +51,6 @@ export default {
   padding: 4px 12px;
   width: calc(100% - 24px * 2);
   max-width: $query-max-width - 24px * 2;
-  height: 48px;
   box-shadow: 0 4px 4px rgba($color-accent, $alpha: 0.2);
 
   color: $color-primary-lightest;
@@ -60,10 +59,12 @@ export default {
   letter-spacing: 0.02em;
   line-height: 40px;
 
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  gap: 8px;
 
   &__message {
-    margin-right: auto;
+    grid-column: 1 / 3;
   }
 
   &__button {
@@ -72,6 +73,28 @@ export default {
     text-transform: capitalize;
     cursor: pointer;
     user-select: none;
+
+    justify-self: end;
+
+    &--accept {
+      grid-column: 1;
+    }
+
+    &--cancel {
+      grid-column: 2;
+    }
+  }
+}
+
+@include media-query-small {
+  .snackbar {
+    bottom: 0;
+    left: 0;
+    transform: none;
+    border-radius: 4px 4px 0 0;
+    width: 100%;
+    min-width: $query-min-width;
+    box-shadow: 0 -2px 4px rgba($color-accent, $alpha: 0.2);
   }
 }
 </style>
