@@ -4,6 +4,12 @@
     <h2 class="home__author">姚秦 · 三藏法师 · 鸠摩罗什 译</h2>
 
     <TableOfContents />
+
+    <div class="home__continue-reading" v-if="chapterNum">
+      <router-link :to="`/chapter/${chapterNum}?Y=${bookmarkY}`"
+        >Continue reading ...</router-link
+      >
+    </div>
   </div>
 </template>
 
@@ -20,27 +26,18 @@ export default {
     TableOfContents,
   },
 
-  beforeRouteEnter(to, from, next) {
-    if (from.name === 'chapter') {
-      return next()
-    }
-
-    const chapterNum = bookmark.getChapter()
-    if (chapterNum !== null) {
-      const answer = window.confirm('Bookmark found, go to last read position?')
-      if (answer) {
-        next(`/chapter/${chapterNum}?Y=${bookmark.getY()}`)
-      } else {
-        next()
-      }
-    } else {
-      next()
+  data() {
+    return {
+      chapterNum: bookmark.getChapter(),
+      bookmarkY: bookmark.getY(),
     }
   },
 }
 </script>
 
 <style lang="scss">
+@import '@/scss/_mixins';
+
 .home {
   margin: 1.999em 1em;
 
@@ -55,6 +52,23 @@ export default {
     font-size: 0.5em;
     font-weight: normal;
     text-align: center;
+  }
+
+  &__continue-reading {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 8px;
+    padding: 8px 12px;
+    font-size: 0.5em;
+    letter-spacing: 0.01em;
+
+    background-color: $color-accent;
+    box-shadow: -1px -2px 4px rgba($color-accent, 0.2);
+
+    a {
+      color: $color-primary-lightest;
+    }
   }
 }
 </style>
