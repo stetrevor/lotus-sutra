@@ -23,7 +23,7 @@ export default {
 
   created() {
     if ('serviceWorker' in navigator) {
-      const wb = new Workbox('/service-worker.js')
+      const wb = new Workbox(`${process.env.BASE_URL}service-worker.js`)
 
       wb.addEventListener('waiting', () => {
         this.prompt = true
