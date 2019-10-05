@@ -16,24 +16,14 @@
 <script>
 import Snackbar from '@/components/Snackbar'
 
-import { Workbox } from 'workbox-window'
-
 export default {
   components: { Snackbar },
 
   created() {
-    if ('serviceWorker' in navigator) {
-      const wb = new Workbox(`${process.env.BASE_URL}service-worker.js`)
-
-      wb.addEventListener('waiting', () => {
+    if (this.$workbox) {
+      this.$workbox.addEventListener('waiting', () => {
         this.prompt = true
       })
-
-      wb.addEventListener('controlling', () => window.location.reload())
-
-      wb.register()
-
-      this.wb = wb
     }
   },
 
@@ -41,7 +31,7 @@ export default {
     async reload() {
       this.prompt = false
 
-      await this.wb.messageSW({ type: 'SKIP_WAITING' })
+      await this.$workbox.messageSW({ type: 'SKIP_WAITING' })
     },
   },
 
