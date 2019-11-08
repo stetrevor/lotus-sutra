@@ -72,7 +72,7 @@ export default {
       this.$el
         .querySelector('.base-chapter__progress-bar')
         .style.setProperty('--scroll', scrollPercent + '%')
-      this.progress = Math.max(Math.ceil(scrollPercent), 100) + '%'
+      this.progress = Math.min(Math.ceil(scrollPercent), 100) + '%'
     },
 
     saveBookmarkY() {
