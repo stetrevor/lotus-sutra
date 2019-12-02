@@ -37,7 +37,7 @@
   ><span>即为方便说</span
   ><span>涅槃真实法</span>
   <span>世皆不牢固</span
-  ><span>如水沬泡焰</span
+  ><span>如水沫泡焰</span
   ><span>汝等咸应当</span
   ><span>疾生厌离心</span>
   <span>诸人闻是法</span
