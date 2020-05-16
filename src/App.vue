@@ -5,7 +5,7 @@
     <snackbar
       v-if="prompt"
       message="New version found. Refresh to upgrade?"
-      accept-text="refresh"
+      accept-text="Update"
       cancel-text="later"
       @snackbar-accept="reload"
       @snackbar-cancel="prompt = false"

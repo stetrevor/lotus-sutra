@@ -42,7 +42,7 @@ export default {
 
 .snackbar {
   position: fixed;
-  bottom: 24px;
+  bottom: 64px;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 4px;

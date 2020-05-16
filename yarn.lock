@@ -7891,10 +7891,10 @@ vm-browserify@^1.0.1:
   version "1.1.0"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
 
-vue-cli-plugin-sutra@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.npm.taobao.org/vue-cli-plugin-sutra/download/vue-cli-plugin-sutra-2.0.2.tgz#4f29e6909f0c9b1647cfce216e2fe6a39aa7c431"
-  integrity sha1-TynmkJ8MmxZHz84hbi/mo5qnxDE=
+vue-cli-plugin-sutra@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-sutra/download/vue-cli-plugin-sutra-2.1.0.tgz#bccf6db88339a89a8bfd679ba8b9e4d4e02e8bd4"
+  integrity sha1-vM9tuIM5qJqL/WebqLnk1OAui9Q=
 
 vue-eslint-parser@^7.0.0:
   version "7.1.0"
