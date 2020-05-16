@@ -97,7 +97,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/scss/_mixins';
+@import '@/scss/theme';
 
 .base-chapter {
   position: relative;
@@ -150,6 +150,16 @@ export default {
       font-size: 1em;
       display: grid;
       grid-template-columns: repeat(2, max-content);
+    }
+
+    .inline-paragraph {
+      p {
+        margin: 0;
+      }
+    }
+
+    pre {
+      white-space: pre-wrap;
     }
   }
 }

@@ -28,6 +28,7 @@
     "prettier": "^1.18.2",
     "sass": "^1.22.12",
     "sass-loader": "^8.0.0",
+    "vue-cli-plugin-sutra": "^1.1.0",
     "vue-template-compiler": "^2.6.10",
     "workbox-webpack-plugin": "^4.3.1"
   },

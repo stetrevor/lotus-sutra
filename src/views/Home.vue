@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1 class="home__title">妙法莲华经</h1>
+    <h1 class="home__title">{{ sutraName }}</h1>
     <h2 class="home__author">姚秦 · 三藏法师 · 鸠摩罗什 译</h2>
 
     <TableOfContents />
@@ -16,6 +16,7 @@
 <script>
 // @ is an alias to /src
 import TableOfContents from '@/components/TableOfContents.vue'
+import { sutraName } from '@/data.json'
 
 import { bookmark } from '@/storage'
 
@@ -30,19 +31,20 @@ export default {
     return {
       chapterNum: bookmark.getChapter(),
       bookmarkY: bookmark.getY(),
+      sutraName,
     }
   },
 }
 </script>
 
 <style lang="scss">
-@import '@/scss/_mixins';
+@import '@/scss/theme';
 
 .home {
   margin: 1.999em 1em;
 
   &__title {
-    font-size: 13vw;
+    font-size: (100vw / 10);
     font-weight: normal;
     letter-spacing: 0.15em;
     text-align: center;

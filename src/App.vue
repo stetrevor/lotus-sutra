@@ -44,7 +44,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '@/scss/_mixins';
+@import '@/scss/theme';
 
 /* colors and font family
  */

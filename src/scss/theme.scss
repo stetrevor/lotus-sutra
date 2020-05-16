@@ -10,7 +10,7 @@ $font-size-max: 28px;
 $character-count: 5 * 2;
 $margin-lr: 1;
 $gap: 0.5;
-$letter-spacing: 0.12;
+$letter-spacing: 0.00;
 $columns: ($character-count + $margin-lr * 2 + $gap + $letter-spacing * 4 * 2);
 $unit: 1 / $columns;
 /* font matrix */
