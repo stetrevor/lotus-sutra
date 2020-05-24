@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :class="{ 'dark-mode': $darkMode }">
     <router-view />
 
     <snackbar
@@ -50,38 +50,10 @@ export default {
  */
 body {
   margin: 0; // reset body margin
-  // margin: 2.827em 1.999em;
-  color: #905c21; /* grizzly */
-  background-color: #f7ebde; /* moccasin */
-  // font-size: 14px;
-  // line-height: 1.6;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-::selection {
-  background-color: #905c21; /* grizzly */
-  color: #f7ebde; /* moccasin */
-}
-
-a {
-  // font-size: 1.414em;
-  color: #905c21;
-  text-decoration: none;
-}
-
-a.router-link-exact-active,
-a:visited {
-  color: #c13a3a;
-}
-
-body {
   line-height: 1.7;
   min-width: $query-min-width;
+  color: var(--color-primary);
+  background-color: var(--color-primary-lightest);
 }
 
 @include media-query-small {
@@ -102,6 +74,27 @@ body {
   body {
     font-size: $font-size-max;
     letter-spacing: width($font-size-max, $letter-spacing);
+  }
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-primary-lightest);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+
+  &.router-link-exact-active,
+  &:visited {
+    color: var(--color-accent);
   }
 }
 </style>

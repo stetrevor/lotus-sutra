@@ -46,15 +46,15 @@ export default {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 4px;
-  border: 2px solid $color-accent;
+  border: 2px solid var(--color-accent);
   box-sizing: border-box;
   padding: 4px 12px;
   width: calc(100% - 24px * 2);
   max-width: $query-max-width - 24px * 2;
-  box-shadow: 0 4px 4px rgba($color-accent, $alpha: 0.2);
+  box-shadow: 0 4px 4px rgba(var(--color-accent), $alpha: 0.2);
 
-  color: $color-primary-lightest;
-  background-color: $color-accent;
+  color: var(--color-primary-lightest);
+  background-color: var(--color-accent);
   font-size: 0.5em;
   letter-spacing: 0.02em;
   line-height: 40px;
@@ -94,7 +94,7 @@ export default {
     border-radius: 4px 4px 0 0;
     width: 100%;
     min-width: $query-min-width;
-    box-shadow: 0 -2px 4px rgba($color-accent, $alpha: 0.2);
+    box-shadow: 0 -2px 4px rgba(var(--color-accent), $alpha: 0.2);
   }
 }
 </style>

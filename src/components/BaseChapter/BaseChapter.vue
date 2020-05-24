@@ -5,6 +5,11 @@
     <div class="base-chapter__reading-progress">
       <div class="base-chapter__text-hint">
         <div class="base-chapter__progress">{{ progress }}</div>
+
+        <button class="base-chapter__toggle-dark-mode" @click="toggleDarkMode">
+          {{ darkModeButtonText }}
+        </button>
+
         <div class="base-chapter__read-time">{{ readMinutes }}</div>
       </div>
       <div class="base-chapter__progress-bar"></div>
@@ -13,7 +18,7 @@
 </template>
 
 <script>
-import { bookmark } from '@/storage'
+import { bookmark, darkMode } from '@/storage'
 
 function rafThrottle(fn) {
   let busy = false
@@ -60,6 +65,10 @@ export default {
       content: '',
       progress: '0%',
       readMinutes: '',
+
+      darkModeButtonText: darkMode.getDarkModeSetting()
+        ? 'Dark mode is ON'
+        : 'Dark mode is OFF',
     }
   },
 
@@ -77,6 +86,14 @@ export default {
 
     saveBookmarkY() {
       bookmark.setY(window.scrollY)
+    },
+
+    toggleDarkMode() {
+      const dark = darkMode.getDarkModeSetting()
+      this.$setDarkMode(!dark)
+      this.darkModeButtonText = darkMode.getDarkModeSetting()
+        ? 'Dark mode is ON'
+        : 'Dark mode is OFF'
     },
   },
 
@@ -109,19 +126,36 @@ export default {
     width: 100%;
     font-size: 12px;
     letter-spacing: 0;
-    background-color: #f7ebde;
+    background-color: var(--color-primary-lightest);
+    height: 48px;
+    display: flex;
+    flex-direction: column;
   }
 
   &__text-hint {
     margin: 4px 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  &__toggle-dark-mode {
+    border-radius: 4px;
+    border: 1px solid var(--color-primary-lighter);
+    padding: 4px 12px;
+    background-color: var(--color-primary-lightest);
+    color: var(--color-primary);
   }
 
   &__progress-bar {
     height: 4px;
     --scroll: 0%;
-    background: linear-gradient(to right, #c13a3a var(--scroll), transparent 0);
+    background: linear-gradient(
+      to right,
+      var(--color-accent) var(--scroll),
+      transparent 0
+    );
   }
 
   &__content {
@@ -131,7 +165,7 @@ export default {
       margin-top: 0em;
       font-size: 1.414em;
       font-weight: normal;
-      color: #a2590b;
+      color: var(--color-primary-lighter);
     }
 
     h2 {

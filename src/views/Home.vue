@@ -65,11 +65,11 @@ export default {
     font-size: 0.5em;
     letter-spacing: 0.01em;
 
-    background-color: $color-accent;
-    box-shadow: -1px -2px 4px rgba($color-accent, 0.2);
+    background-color: var(--color-accent);
+    box-shadow: -1px -2px 4px rgba(var(--color-accent), 0.2);
 
     a {
-      color: $color-primary-lightest;
+      color: var(--color-primary-lightest);
     }
   }
 }
