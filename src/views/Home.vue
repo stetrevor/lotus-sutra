@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <h1 class="home__title">{{ sutraName }}</h1>
-    <h2 class="home__author">姚秦 · 三藏法师 · 鸠摩罗什 译</h2>
 
     <TableOfContents />
 
