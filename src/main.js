@@ -15,7 +15,7 @@ const setDarkMode = dark => {
   darkMode.setDarkModeSetting(dark)
 }
 
-setDarkMode(darkMode.getDarkModeSetting() || true)
+setDarkMode(darkMode.getDarkModeSetting())
 
 Vue.prototype.$setDarkMode = setDarkMode
 
