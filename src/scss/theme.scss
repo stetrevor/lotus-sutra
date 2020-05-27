@@ -49,9 +49,9 @@ $query-max-width: round(width-unit($font-size-max) * $columns);
 }
 
 :root .dark-mode {
-  --color-primary: rgb(224, 224, 224); /* grizzly */
-  --color-primary-lighter: rgb(152, 152, 152);
-  --color-primary-lightest: rgb(48, 48, 48); /* moccasin */
+  --color-primary: rgb(152, 152, 152);
+  --color-primary-lighter: rgb(124, 124, 124);
+  --color-primary-lightest: rgb(4, 4, 4);
   --color-accent: rgb(188, 188, 188);
 }
 
