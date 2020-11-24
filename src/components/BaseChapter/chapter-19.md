@@ -44,7 +44,7 @@
   ><span>无数种人声</span
   ><span>闻悉能解了</span>
   <span>又闻诸天声</span
-  ><span>微妙之歌音</span
+  ><span>微妙之歌声</span
   ><span>及闻男女声</span
   ><span>童子童女声</span>
   <span>山川险谷中</span
